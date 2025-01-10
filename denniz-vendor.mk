@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/lib/libhyperlapse.so:$(TARGET_COPY_OUT_ODM)/lib/libhyperlapse.so \
     vendor/oplus/denniz/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
     vendor/oplus/denniz/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
+	vendor/oplus/denniz/proprietary/odm/lib/libstdc++.so:$(TARGET_COPY_OUT_ODM)/lib/libstdc++.so \
     vendor/oplus/denniz/proprietary/odm/lib/libmindroid-app.so:$(TARGET_COPY_OUT_ODM)/lib/libmindroid-app.so \
     vendor/oplus/denniz/proprietary/odm/lib/libmindroid-framework.so:$(TARGET_COPY_OUT_ODM)/lib/libmindroid-framework.so \
     vendor/oplus/denniz/proprietary/odm/lib/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib/libmpbase.so \
