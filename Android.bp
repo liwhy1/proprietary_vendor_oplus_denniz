@@ -43,14 +43,14 @@ dex_import {
 
 dex_import {
 	name: "com.oplus.camera.unit.sdk.adapter",
-	owner: "oneplus",
+	owner: "oplus",
 	jars: ["proprietary/system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar"],
 	system_ext_specific: true,
 }
 
 dex_import {
 	name: "com.oplus.camera.unit.sdk",
-	owner: "oneplus",
+	owner: "oplus",
 	jars: ["proprietary/system_ext/framework/com.oplus.camera.unit.sdk.jar"],
 	system_ext_specific: true,
 }
