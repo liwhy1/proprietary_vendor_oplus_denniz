@@ -15,10 +15,10 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary//lib/vendor.oplus.hardware.cammidasservice@1.0.so"],
+			srcs: ["proprietary/lib/vendor.oplus.hardware.cammidasservice@1.0.so"],
 		},
 		android_arm64: {
-			srcs: ["proprietary//lib64/vendor.oplus.hardware.cammidasservice@1.0.so"],
+			srcs: ["proprietary/lib64/vendor.oplus.hardware.cammidasservice@1.0.so"],
 		},
 	},
 	compile_multilib: "both",
