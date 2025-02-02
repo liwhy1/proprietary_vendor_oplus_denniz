@@ -27,7 +27,7 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_cammidasservice.xml",
+	name: "manifest_oplus_cammidasservice",
 	owner: "oplus",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_cammidasservice.xml",
 	filename_from_src: true,
