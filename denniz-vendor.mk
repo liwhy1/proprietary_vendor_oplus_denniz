@@ -379,6 +379,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_sn_mtk_apu.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_sn_mtk_apu.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_raw.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_videoautozoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_videoautozoom.so \
+    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_turbo_fusion_raw_grf.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_turbo_fusion_raw_grf.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libcalibverifyW_T.so:$(TARGET_COPY_OUT_ODM)/lib64/libcalibverifyW_T.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libcamera_core_hwi.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamera_core_hwi.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_ODM)/lib64/libcdsprpc.so \
