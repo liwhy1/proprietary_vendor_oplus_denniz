@@ -1288,7 +1288,9 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/etc/camera/video_enhance.json:$(TARGET_COPY_OUT_ODM)/etc/camera/video_enhance.json \
     vendor/oplus/denniz/proprietary/odm/etc/fad/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_ODM)/etc/fad/M_Attribute_AG_BMW_1.1.0.model \
     vendor/oplus/denniz/proprietary/odm/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
-    vendor/oplus/denniz/proprietary/odm/etc/permissions/vendor-oplus-hardware-olc-2.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-olc-2.xml
+    vendor/oplus/denniz/proprietary/odm/etc/permissions/vendor-oplus-hardware-olc-2.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/vendor-oplus-hardware-olc-2.xml \
+    vendor/oplus/denniz/proprietary/system_ext/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
+    vendor/oplus/denniz/proprietary/system_ext/lib/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.osense.client@1.0.so
 
 PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cammidasservice@1.0 \
