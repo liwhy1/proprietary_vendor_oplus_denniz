@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oplus/denniz
 
 PRODUCT_COPY_FILES += \
+    vendor/oplus/denniz/proprietary/lib/vendor.oplus.hardware.cameraextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oplus.hardware.cameraextension@1.0.so \
+    vendor/oplus/denniz/proprietary/lib64/vendor.oplus.hardware.cameraextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oplus.hardware.cameraextension@1.0.so \
     vendor/oplus/denniz/proprietary/system_ext/lib64/libAPSClient-cmd-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAPSClient-cmd-jni.so \
     vendor/oplus/denniz/proprietary/system_ext/lib64/libAPSClient-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAPSClient-jni.so \
     vendor/oplus/denniz/proprietary/system_ext/lib64/libAncFilter_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncFilter_jni.so \
@@ -1039,6 +1041,8 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin \
     vendor/oplus/denniz/proprietary/odm/vendor/app/mcRegistry/6b3f5fa0f8cf55a7be2582587d62d63a.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/6b3f5fa0f8cf55a7be2582587d62d63a.drbin \
     vendor/oplus/denniz/proprietary/odm/vendor/app/mcRegistry/b230723bcfe75f8581122dc1f8e52f4d.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/b230723bcfe75f8581122dc1f8e52f4d.tabin \
+    vendor/oplus/denniz/proprietary/system_ext/lib/vendor.oplus.hardware.cameraMDM@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.cameraMDM@1.0.so \
+    vendor/oplus/denniz/proprietary/system_ext/lib/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/oplus/denniz/proprietary/system_ext/lib64/libHeifEncoderWrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifEncoderWrapper.so \
     vendor/oplus/denniz/proprietary/system_ext/lib64/libHeifWinBufExchg-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifWinBufExchg-jni.so \
     vendor/oplus/denniz/proprietary/system_ext/lib64/libNativeWinBuffExchange.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libNativeWinBuffExchange.so \
@@ -1065,6 +1069,9 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/system_ext/lib64/liboplusheifwriter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusheifwriter.so \
     vendor/oplus/denniz/proprietary/system_ext/lib64/libsuperNight.oplus.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsuperNight.oplus.so \
     vendor/oplus/denniz/proprietary/system_ext/lib64/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtflite_mtk.mtk.so \
+    vendor/oplus/denniz/proprietary/system_ext/lib64/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.camera.slogan@1.0.so \
+    vendor/oplus/denniz/proprietary/system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.cameraMDM@1.0.so \
+    vendor/oplus/denniz/proprietary/system_ext/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/oplus/denniz/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     vendor/oplus/denniz/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     vendor/oplus/denniz/proprietary/vendor/app/mcRegistry/05120000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/05120000000000000000000000000000.drbin \
