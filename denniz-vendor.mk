@@ -462,6 +462,8 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/firmware/tp/20817/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20817/FW_FT3518_SAMSUNG.img \
     vendor/oplus/denniz/proprietary/odm/firmware/tp/20817/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20817/FW_FT3518_SAMSUNG_FAE.img \
     vendor/oplus/denniz/proprietary/odm/firmware/tp/20817/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20817/LIMIT_FT3518_SAMSUNG.img \
+    vendor/oplus/denniz/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libmtk-subsys-service.so:$(TARGET_COPY_OUT_ODM)/lib/libmtk-subsys-service.so \
     vendor/oplus/denniz/proprietary/odm/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@2.0.so \
     vendor/oplus/denniz/proprietary/odm/lib64/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@3.0.so \
     vendor/oplus/denniz/proprietary/odm/lib64/android.hardware.graphics.allocator@4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@4.0.so \
@@ -912,6 +914,24 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/firmware/soc3_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wifi_1a_1_hdr.bin \
     vendor/oplus/denniz/proprietary/vendor/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin \
     vendor/oplus/denniz/proprietary/vendor/firmware/valhall-1691526.wa:$(TARGET_COPY_OUT_VENDOR)/firmware/valhall-1691526.wa \
+    vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSQLiteModule_VER_ALL.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_rss.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrvideo.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libheichal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libheichal.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispcameraca.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21127_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21651_IdxMgr.so \
