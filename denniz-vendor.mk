@@ -591,7 +591,7 @@ PRODUCT_PACKAGES += \
     oplus-support-wrapper \
     com.oplus.camera.unit.sdk.adapter \
     com.oplus.camera.unit.sdk \
-    manifest_oplus_cammidasservice
+    manifest_oplus_cammidasservice \
     libdip_drv \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     libocam_common \
