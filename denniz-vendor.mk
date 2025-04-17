@@ -6,60 +6,15 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oplus/denniz
 
 PRODUCT_COPY_FILES += \
+    vendor/oplus/denniz/proprietary/lib/vendor.oplus.hardware.cameraextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oplus.hardware.cameraextension@1.0.so \
     vendor/oplus/denniz/proprietary/lib64/vendor.oplus.hardware.cameraextension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oplus.hardware.cameraextension@1.0.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libAPSClient-cmd-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAPSClient-cmd-jni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libAPSClient-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAPSClient-jni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libAncFilter_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncFilter_jni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libAncHumBokeh-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumBokeh-jni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libAncHumanDoubleExposure-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanDoubleExposure-jni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libAncHumanRetain-jni_v2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanRetain-jni_v2.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libAncHumanSegFigureFusion-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanSegFigureFusion-jni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libAncHumanVideo-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAncHumanVideo-jni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libApsFaceBeautyPreviewProductJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libApsFaceBeautyPreviewProductJni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libFileExtender-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libFileExtender-jni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libOplusBlurPreviewJNI.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libOplusBlurPreviewJNI.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libSuperTextWrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSuperTextWrapper.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libXDocProcessSDK-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libXDocProcessSDK-jni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libXDocProcessSDK.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libXDocProcessSDK.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libYTCommon.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libYTCommon.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libextendfile.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libextendfile.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libjnisingleblur_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjnisingleblur_api.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libjnistblur_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjnistblur_api.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmpbase.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libsingle_camera_bokeh_native.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsingle_camera_bokeh_native.so \
     vendor/oplus/denniz/proprietary/odm/bin/hw/vendor.oplus.hardware.cammidasservice@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.cammidasservice@1.0-service \
     vendor/oplus/denniz/proprietary/odm/etc/audio/smartpa_param/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/etc/audio/smartpa_param/tfa98xx.cnt \
     vendor/oplus/denniz/proprietary/odm/etc/audio/smartpa_param/tfa98xx_music.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/smartpa_param/tfa98xx_music.bin \
     vendor/oplus/denniz/proprietary/odm/etc/audio/smartpa_param/tfa98xx_ringtone.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/smartpa_param/tfa98xx_ringtone.bin \
     vendor/oplus/denniz/proprietary/odm/etc/audio/smartpa_param/tfa98xx_voice.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/smartpa_param/tfa98xx_voice.bin \
     vendor/oplus/denniz/proprietary/odm/etc/audio/smartpa_param/tfa98xx_voip.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/smartpa_param/tfa98xx_voip.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/AiFace.json:$(TARGET_COPY_OUT_ODM)/etc/camera/AiFace.json \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/BHKHBOMOJEAFOEOJG1JLPOMONAOEHCGHLCJFGJCCEMJNKADDFNOOGECFHEOHGKAJ00:$(TARGET_COPY_OUT_ODM)/etc/camera/BHKHBOMOJEAFOEOJG1JLPOMONAOEHCGHLCJFGJCCEMJNKADDFNOOGECFHEOHGKAJ00 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/BHKHBOMOJEAFOEOJG1JLPOMONAOEHCGHLCJFGJCCEMJNKADDFNOOGECFHEOHGKAJ01:$(TARGET_COPY_OUT_ODM)/etc/camera/BHKHBOMOJEAFOEOJG1JLPOMONAOEHCGHLCJFGJCCEMJNKADDFNOOGECFHEOHGKAJ01 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/BHKHBOMOJEAFOEOJG2JLPOMONAOEHCGHLCJFGJCCEMJNKADDFNOOGECFHEOHGKAJ00:$(TARGET_COPY_OUT_ODM)/etc/camera/BHKHBOMOJEAFOEOJG2JLPOMONAOEHCGHLCJFGJCCEMJNKADDFNOOGECFHEOHGKAJ00 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/BodySeg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/BodySeg.json \
     vendor/oplus/denniz/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/aicolor/duallut_background.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_background.bmp \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/aicolor/duallut_portrait.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_portrait.bmp \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/anc/fusion_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/anc/fusion_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model_post \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/anc/merged_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/anc/merged_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model_post \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/anc/video_retention_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/video_retention_model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/anc/video_retention_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/video_retention_model_post \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/anc/videolut_background.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_background.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/anc/videolut_portrait.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_portrait.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/anc/videolut_portrait_front.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_portrait_front.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/asd/class.tflite:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.tflite \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/asd/detect.tflite:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.tflite \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_ODM)/etc/camera/ashdr/ncf_pack.ncf \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/capture_bokeh_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_bokeh_params.json \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/capture_lutportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_lutportrait_params.json \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/capture_neonportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_neonportrait_params.json \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/cfr_bin/CFR_imx355.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_imx355.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/cfr_bin/CFR_ov64b.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_ov64b.bin \
     vendor/oplus/denniz/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
     vendor/oplus/denniz/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
     vendor/oplus/denniz/proprietary/odm/etc/camera/config/gc02m1b:$(TARGET_COPY_OUT_ODM)/etc/camera/config/gc02m1b \
@@ -71,379 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
     vendor/oplus/denniz/proprietary/odm/etc/camera/config/ov02b10:$(TARGET_COPY_OUT_ODM)/etc/camera/config/ov02b10 \
     vendor/oplus/denniz/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/001.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/001_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/002.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/002_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/003.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/003_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/010.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/010_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/011.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/011_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/012.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/012_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/013.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/013.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/100.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/100_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/101.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/101_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/102.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/102_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/103.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/103_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/110.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/110_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/111.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/111_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/112.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/112_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/113.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/113.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/200.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/200_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/201.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/201_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/202.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/202_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/203.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/203_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/210.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/210_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/211.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/211_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/212.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/212_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212_pre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/213.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/213.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/EYES_MUTIL_3_4_354_654.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/EYES_MUTIL_3_4_354_654.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/FIRST_LOVE_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/FIRST_LOVE_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/GROOMED_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/GROOMED_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/MIDNIGHT_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/MIDNIGHT_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/ORANGE_CRUSH_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/ORANGE_CRUSH_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/PEACH_PINK_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/PEACH_PINK_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/RED_VELVET_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/RED_VELVET_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/ROSE_NUDE_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/ROSE_NUDE_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SEA_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SEA_4_5_178_440.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_4_5_178_440.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SEA_4_5_354_654.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_4_5_354_654.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SEA_eye_mouth_screen_frame0.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_eye_mouth_screen_frame0.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SEA_eye_mouth_screen_frame1.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_eye_mouth_screen_frame1.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SEA_eye_mouth_screen_frame2.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_eye_mouth_screen_frame2.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SEA_eye_mouth_screen_frame3.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_eye_mouth_screen_frame3.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SEA_eye_mouth_screen_frame4.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SEA_eye_mouth_screen_frame4.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SHIMMER_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SHIMMER_4_4_178_440.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_4_4_178_440.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SHIMMER_4_4_354_654.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_4_4_354_654.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame0.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame0.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame1.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame1.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame2.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame2.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame3.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame3.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame4.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SHIMMER_eye_mouth_screen_frame4.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/SMOKEY_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SMOKEY_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/UNIQUE_EYES_1_4_1005_838.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/UNIQUE_EYES_1_4_1005_838.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/beauty_body.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/beauty_body.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/eyeBright.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyeBright.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/eyesMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMask.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/eyesMaskNew.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMaskNew.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/eyesMaskNew.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMaskNew.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/faceLipsMaskPre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/faceLipsMaskPre.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/face_retouch_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_chinese.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/preSkinmask137.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask137.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/preSkinmask296.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask296.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs00.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs01.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs02.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs03.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs10.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs11.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs12.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs13.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_00.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_01.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_02.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_03.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_10.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_11.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_12.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_13.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fb_model/skinmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fdc_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_cl.cache \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fdc_lite_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_lite_cl.cache \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/B1VLf4peM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1VLf4peM \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/B1aMqioxf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1aMqioxf \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/B1nmcmWbG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1nmcmWbG \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/B1si_XbZz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1si_XbZz \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/B612Pretty.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B612Pretty.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/BJJAwoigM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BJJAwoigM \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/BJyKIwqxz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BJyKIwqxz \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/ByW7g4bbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByW7g4bbf \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByYo3If \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/BycYf7WWz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BycYf7WWz \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Emerald.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/EyxRbD2UCe:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/EyxRbD2UCe \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/InsClarendon.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsClarendon.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/InsJuno.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsJuno.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/Martin.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Martin.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/Radiance.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Radiance.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/SJ3mbr6ef:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SJ3mbr6ef \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/Serenity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Serenity.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/SkpZ8ebbz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SkpZ8ebbz \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/Sy4uLSTgf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Sy4uLSTgf \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/Syt2KeZZf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Syt2KeZZf \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/black_gold.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/blackandwhite.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bright_coloured.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/calm-V5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/calm-V5.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/candy-P7.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/candy-P7.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cola.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/cyberpunk-neoMilitarism-2.4-final.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cyberpunk-neoMilitarism-2.4-final.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/default:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/default \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/delight-P3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/delight-P3.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/delight-V1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/delight-V1.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/drjw1994.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/drjw2010.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/f_bin_hideaki:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_bin_hideaki \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/f_contrast_gray_face_dark:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_contrast_gray_face_dark \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gourmet.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/interstellar_space.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jw_surprise.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/kodak.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/mellow-V3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/mellow-V3.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/misty-P5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/misty-P5.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/misty-V4.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/misty-V4.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/mono.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/morandi.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/natural-P1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/natural-P1.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/natural.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/neon-2020.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus-black-gold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-black-gold.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus-cyberpunk.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-cyberpunk.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus-nightcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-nightcity.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_r4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r4.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_r5.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r5.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_r6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r6.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_black_and_white:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_black_and_white \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_highlight:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_highlight \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_ins:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_ins \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_natal:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_natal \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_olympus:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_olympus \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_plain:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_plain \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_show:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_show \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_solar:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_solar \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_strong:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_strong \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_west:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_west \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_black_and_white:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_black_and_white \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_highlight:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_highlight \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_ins:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_ins \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_natal:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_natal \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_olympus:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_olympus \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_plain:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_plain \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_show:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_show \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_solar:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_solar \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_strong:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_strong \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_west:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_west \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/p4_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_1.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/p4_2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_2.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/p4_3.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_3.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/p4_4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_4.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/r1JaFSZZG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/r1JaFSZZG \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/r1PrfoolG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/r1PrfoolG \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rJ5g5vPWG \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/rJxJtmaez:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rJxJtmaez \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/red-red.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/rkMhq4ZWf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rkMhq4ZWf \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/rkx5u4Zbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rkx5u4Zbf \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/serene-P9.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/serene-P9.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sky-blue.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/sweet-P2.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sweet-P2.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/sweet-V2.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sweet-V2.CUBE.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/tree-green.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/type_fuji_acros:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_acros \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/type_fuji_astia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_astia \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/type_fuji_chrome:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_chrome \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/type_fuji_provia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_provia \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/type_fuji_velvia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_velvia \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/vivid-cool.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-cool.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/vivid-lut.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-lut.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/vivid-warm.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-warm.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_res/film_grain_small.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/film_grain_small.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_res/lut_all_points.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/lut_all_points.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/overlay_p4_3_weak.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_det_v11.0.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gesture/modules/tt_hand_kp_v6.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_kp_v6.0.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gesture/modules/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_lr_v3.0.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gesture/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_box_reg_v12.0.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gesture/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_det_v11.0.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gesture/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_gesture_v11.1.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gesture/tt_hand_kp_v6.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_kp_v6.0.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/gesture/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_lr_v3.0.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/neon_yuv_LUT_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/neon_yuv_LUT_64.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/BeardSharp.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/BeardSharp.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.frag \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/BeardSharp.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.vert \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreAddSRBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreAddSRBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreBilaFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreBilaFilterBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreBilaFilterBinaryV.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreBilaFilterBinaryV.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreBilaFilterMixBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreBilaFilterMixBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreCalcSRBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreCalcSRBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreContrastSumTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreContrastSumTwoBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreContrastTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreContrastTwoBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreContrastUpdateTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreContrastUpdateTwoBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreDepouchBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreDepouchBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreEyeMeanBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreEyeMeanBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreEyeMeanTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreEyeMeanTwoBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreEyeTuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreEyeTuneBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreHighPassBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreHighPassPreBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassPreBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreHoriFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHoriFilterBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreMakeupMultiFaceBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupMultiFaceBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreMakeupSingleFaceBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupSingleFaceBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreMakeupTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMakeupTwoBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreMixImageBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMixImageBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreMorphBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMorphBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreMorphTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreMorphTwoBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreOnlywhitenBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreOnlywhitenBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreSaveMaskBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSaveMaskBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreSaveMaskTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSaveMaskTwoBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreSkintuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSkintuneBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreSkintuneMRTBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSkintuneMRTBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreSobelSumTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSobelSumTwoBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreSobelTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSobelTwoBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreSobelUpdateTwoBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSobelUpdateTwoBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertFilterBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/PreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertSurBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.frag \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.vert \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.frag \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.vert \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.frag \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.vert \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.frag \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.vert \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehParam.json \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/singleblur/license_release.license:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/license_release.license \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/singleblur/personseg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/personseg.bin \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/singleblur/preview_seg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/preview_seg.json \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/singleblur/singlut_background.png:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/singlut_background.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/singleblur/singlut_portrait.png:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/singlut_portrait.png \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/M_SenseME_Action_5.2.12.model \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/sticker/material/animoji/data.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/data.zip \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_0 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_10 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_2 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_3 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_4 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_5:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_5 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_6:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_6 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_7 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_8 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/curve_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_9 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/list.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/list.txt \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/s_curve_lut:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/s_curve_lut \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_0 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_1 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_10 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_2 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_3 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_4 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_5:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_5 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_6:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_6 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_7 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_8 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/curve_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/curve_lut_9 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/list.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/list.txt \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/s_curve_lut:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/s_curve_lut \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_0 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_1 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_10 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_2 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_3 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_4 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_5:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_5 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_6:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_6 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_7 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_8 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap/tonemap_lut_9 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_0 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_1 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_10 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_2 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_3 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_4 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_5:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_5 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_6:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_6 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_7 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
-    vendor/oplus/denniz/proprietary/odm/etc/camera/video_enhance.json:$(TARGET_COPY_OUT_ODM)/etc/camera/video_enhance.json \
-    vendor/oplus/denniz/proprietary/odm/etc/fad/M_Attribute_AG_BMW_1.1.0.model:$(TARGET_COPY_OUT_ODM)/etc/fad/M_Attribute_AG_BMW_1.1.0.model \
-    vendor/oplus/denniz/proprietary/odm/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/fad/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
     vendor/oplus/denniz/proprietary/odm/etc/init/init.camera_update.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.camera_update.rc \
     vendor/oplus/denniz/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice@1.0-service.rc \
     vendor/oplus/denniz/proprietary/odm/firmware/aw8697_haptic.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw8697_haptic.bin \
@@ -462,8 +44,48 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/firmware/tp/20817/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20817/FW_FT3518_SAMSUNG.img \
     vendor/oplus/denniz/proprietary/odm/firmware/tp/20817/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20817/FW_FT3518_SAMSUNG_FAE.img \
     vendor/oplus/denniz/proprietary/odm/firmware/tp/20817/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20817/LIMIT_FT3518_SAMSUNG.img \
-    vendor/oplus/denniz/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
+    vendor/oplus/denniz/proprietary/odm/lib/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.graphics.allocator@2.0.so \
+    vendor/oplus/denniz/proprietary/odm/lib/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.graphics.allocator@3.0.so \
+    vendor/oplus/denniz/proprietary/odm/lib/android.hardware.graphics.allocator@4.0.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.graphics.allocator@4.0.so \
+    vendor/oplus/denniz/proprietary/odm/lib/gc02m1b_mipi_mono20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/gc02m1b_mipi_mono20817_tuning.so \
+    vendor/oplus/denniz/proprietary/odm/lib/imx355_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/imx355_mipi_raw20817_tuning.so \
+    vendor/oplus/denniz/proprietary/odm/lib/imx615_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/imx615_mipi_raw20817_tuning.so \
+    vendor/oplus/denniz/proprietary/odm/lib/imx766_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib/imx766_mipi_raw20817_tuning.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib/libCOppLceTonemapAPI.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libEIS.so:$(TARGET_COPY_OUT_ODM)/lib/libEIS.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib/libFilterWrapper.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib/libOGLManager.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libRbsFlow.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib/libRbsFlow_cap.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libVDExternal.so:$(TARGET_COPY_OUT_ODM)/lib/libVDExternal.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libWaterMark.so:$(TARGET_COPY_OUT_ODM)/lib/libWaterMark.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libYTCommon.so:$(TARGET_COPY_OUT_ODM)/lib/libYTCommon.so \
+    vendor/oplus/denniz/proprietary/odm/lib/lib_rectify.so:$(TARGET_COPY_OUT_ODM)/lib/lib_rectify.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libaiseg.so:$(TARGET_COPY_OUT_ODM)/lib/libaiseg.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libalCFR.so:$(TARGET_COPY_OUT_ODM)/lib/libalCFR.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib/libapsexif.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib/libapsjpeg.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libapspng.so:$(TARGET_COPY_OUT_ODM)/lib/libapspng.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libcamera_core_hwi.so:$(TARGET_COPY_OUT_ODM)/lib/libcamera_core_hwi.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libchrome.so:$(TARGET_COPY_OUT_ODM)/lib/libchrome.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libhyperlapse.so:$(TARGET_COPY_OUT_ODM)/lib/libhyperlapse.so \
+    vendor/oplus/denniz/proprietary/odm/lib/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs.so \
+    vendor/oplus/denniz/proprietary/odm/lib/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvimfs_wrapper.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libmindroid-app.so:$(TARGET_COPY_OUT_ODM)/lib/libmindroid-app.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libmindroid-framework.so:$(TARGET_COPY_OUT_ODM)/lib/libmindroid-framework.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib/libmpbase.so \
     vendor/oplus/denniz/proprietary/odm/lib/libmtk-subsys-service.so:$(TARGET_COPY_OUT_ODM)/lib/libmtk-subsys-service.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libnp-loader.so:$(TARGET_COPY_OUT_ODM)/lib/libnp-loader.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libocam_common.so:$(TARGET_COPY_OUT_ODM)/lib/libocam_common.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libop-ai-beauty-body-detection.so:$(TARGET_COPY_OUT_ODM)/lib/libop-ai-beauty-body-detection.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libop-ai-beauty-faceretouch-cn.so:$(TARGET_COPY_OUT_ODM)/lib/libop-ai-beauty-faceretouch-cn.so \
+    vendor/oplus/denniz/proprietary/odm/lib/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_ODM)/lib/liboplus_platform_hwi.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libstdc++.so:$(TARGET_COPY_OUT_ODM)/lib/libstdc++.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib/libtfavib.so \
+    vendor/oplus/denniz/proprietary/odm/lib/libui_oplus.so:$(TARGET_COPY_OUT_ODM)/lib/libui_oplus.so \
+    vendor/oplus/denniz/proprietary/odm/lib/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.cammidasservice@1.0.so \
     vendor/oplus/denniz/proprietary/odm/lib64/android.hardware.graphics.allocator@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@2.0.so \
     vendor/oplus/denniz/proprietary/odm/lib64/android.hardware.graphics.allocator@3.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@3.0.so \
     vendor/oplus/denniz/proprietary/odm/lib64/android.hardware.graphics.allocator@4.0.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.graphics.allocator@4.0.so \
@@ -471,19 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/lib64/imx355_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx355_mipi_raw20817_tuning.so \
     vendor/oplus/denniz/proprietary/odm/lib64/imx615_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx615_mipi_raw20817_tuning.so \
     vendor/oplus/denniz/proprietary/odm/lib64/imx766_mipi_raw20817_tuning.so:$(TARGET_COPY_OUT_ODM)/lib64/imx766_mipi_raw20817_tuning.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/lib2DSlender.so:$(TARGET_COPY_OUT_ODM)/lib64/lib2DSlender.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAlgoInterface.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoInterface.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoProcess.so \
     vendor/oplus/denniz/proprietary/system_ext/lib64/libAlgoProcess.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libAlgoProcess.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAncFilter.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncFilter.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAncHumBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumBokeh.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAncHumBokehPost.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumBokehPost.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAncHumVideoBase.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumVideoBase.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAncHumVideoBasePost.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumVideoBasePost.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAncHumanDoubleExposure.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanDoubleExposure.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAncHumanRetain.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanRetain.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAncHumanSegFigureFusion.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncHumanSegFigureFusion.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libAncSegmentSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegmentSdk.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libBokehPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libBokehPre.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libCOppLceTonemapAPI.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libCamera_gc02m1bmipimono20817_E2EHDR_Preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libCamera_gc02m1bmipimono20817_E2EHDR_Preview.so \
@@ -678,120 +288,39 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/lib64/libCamera_imx766mipiraw20817_portrait_preview_full.so:$(TARGET_COPY_OUT_ODM)/lib64/libCamera_imx766mipiraw20817_portrait_preview_full.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libCamera_imx766mipiraw20817_zHDR_Face_Capture.so:$(TARGET_COPY_OUT_ODM)/lib64/libCamera_imx766mipiraw20817_zHDR_Face_Capture.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libCamera_imx766mipiraw20817_zHDR_Scene_Capture.so:$(TARGET_COPY_OUT_ODM)/lib64/libCamera_imx766mipiraw20817_zHDR_Scene_Capture.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipCommon.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipCommon.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipParamProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParamProcess.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipParameter0.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter0.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipParameter1.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter1.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipParameter2.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter2.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipParameter3.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter3.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipParameter4.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter4.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipParameter5.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter5.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipParameter6.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter6.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipParameter7.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipParameter7.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libCipo_awb.so:$(TARGET_COPY_OUT_ODM)/lib64/libCipo_awb.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libDeVIS.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libEIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libEIS.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libFDClite.so:$(TARGET_COPY_OUT_ODM)/lib64/libFDClite.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libFaceBeautyCap.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceBeautyCap.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libFaceBeautyJni.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceBeautyJni.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libFaceBeautyPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceBeautyPre.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libFaceDistortionCorrection.so:$(TARGET_COPY_OUT_ODM)/lib64/libFaceDistortionCorrection.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libFilterWrapper.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libOGLManager.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPLUS_SCPortrait.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libPerfectlyClearCrux.so:$(TARGET_COPY_OUT_ODM)/lib64/libPerfectlyClearCrux.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libPerfectlyClearCruxOpt.so:$(TARGET_COPY_OUT_ODM)/lib64/libPerfectlyClearCruxOpt.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libPolarrRender.so:$(TARGET_COPY_OUT_ODM)/lib64/libPolarrRender.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libPreviewDecisionOld.so:$(TARGET_COPY_OUT_ODM)/lib64/libPreviewDecisionOld.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_ODM)/lib64/libRbsFlow.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libRbsFlow_cap.so:$(TARGET_COPY_OUT_ODM)/lib64/libRbsFlow_cap.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libSuperTextWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libSuperTextWrapper.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libVDBayerHDR.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDBayerHDR.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libVDBlurless.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDBlurless.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libVDDualCameraBlurlessAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDDualCameraBlurlessAPI.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libVDExternal.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDExternal.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libVDPostureDetection.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDPostureDetection.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDSuperPhotoAPI.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libVDUpScale.so:$(TARGET_COPY_OUT_ODM)/lib64/libVDUpScale.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libVideoEnhance.so:$(TARGET_COPY_OUT_ODM)/lib64/libVideoEnhance.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libWaterMark.so:$(TARGET_COPY_OUT_ODM)/lib64/libWaterMark.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libXDocProcessSDK.so:$(TARGET_COPY_OUT_ODM)/lib64/libXDocProcessSDK.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libYTCommon.so:$(TARGET_COPY_OUT_ODM)/lib64/libYTCommon.so \
     vendor/oplus/denniz/proprietary/odm/lib64/lib_rectify.so:$(TARGET_COPY_OUT_ODM)/lib64/lib_rectify.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libaisal.so:$(TARGET_COPY_OUT_ODM)/lib64/libaisal.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libaisd.so:$(TARGET_COPY_OUT_ODM)/lib64/libaisd.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libaiseg.so:$(TARGET_COPY_OUT_ODM)/lib64/libaiseg.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libalCFR.so:$(TARGET_COPY_OUT_ODM)/lib64/libalCFR.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libanc_np-loader.so:$(TARGET_COPY_OUT_ODM)/lib64/libanc_np-loader.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libancbase_rt_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_bokeh.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libancbase_rt_fusion.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_fusion.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libancbase_rt_retain.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_rt_retain.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libancbase_segment.so:$(TARGET_COPY_OUT_ODM)/lib64/libancbase_segment.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libapspng.so:$(TARGET_COPY_OUT_ODM)/lib64/libapspng.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_aicolor_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_image.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_video.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_distortion_correction.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_dualcam_bokeh_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_bokeh_api.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_dualcam_bokeh_frt_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_bokeh_frt_api.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_dualcam_refocus_frt_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_frt_image.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_dualcam_refocus_frt_preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_frt_preview.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_dualcam_refocus_left.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_left.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_dualcam_refocus_preview.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_preview.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_dualcam_refocus_uw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_refocus_uw.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_dualcam_wt_calibration.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_wt_calibration.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_dualcam_wt_verification.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_dualcam_wt_verification.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_frc.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_frc.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_hdr_couple_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_couple_api.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_hdr_couple_api_v4.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_couple_api_v4.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_hdr_denoise_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_hdr_denoise_api.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_high_dynamic_range_couple.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range_couple.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_high_dynamic_range_couple_v4.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_high_dynamic_range_couple_v4.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_lensstaindetection.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_lensstaindetection.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_low_light_hdr.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_low_light_hdr_for_neon.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_low_light_hdr_for_neon.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_portrait_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_portrait_super_night_raw.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_preview_antibanding.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_preview_antibanding.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_psn_mtk_apu.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_psn_mtk_apu.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_scbokeh_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_scbokeh_video.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_smart_denoise.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_sn_mtk_apu.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_sn_mtk_apu.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_raw.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libarcsoft_videoautozoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_videoautozoom.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libcalibverifyW_T.so:$(TARGET_COPY_OUT_ODM)/lib64/libcalibverifyW_T.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libcamera_core_hwi.so:$(TARGET_COPY_OUT_ODM)/lib64/libcamera_core_hwi.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_ODM)/lib64/libcdsprpc.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libchrome.so:$(TARGET_COPY_OUT_ODM)/lib64/libchrome.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libcvface_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libcvface_api.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libhci_face_camera_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libhci_face_camera_api.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libhyperlapse.so:$(TARGET_COPY_OUT_ODM)/lib64/libhyperlapse.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libimgClarityEvaluate.so:$(TARGET_COPY_OUT_ODM)/lib64/libimgClarityEvaluate.so \
     vendor/oplus/denniz/proprietary/odm/lib64/liblvimfs.so:$(TARGET_COPY_OUT_ODM)/lib64/liblvimfs.so \
     vendor/oplus/denniz/proprietary/odm/lib64/liblvimfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/liblvimfs_wrapper.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libmegface_rt_bokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libmegface_rt_bokeh.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libmindroid-app.so:$(TARGET_COPY_OUT_ODM)/lib64/libmindroid-app.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libmindroid-framework.so:$(TARGET_COPY_OUT_ODM)/lib64/libmindroid-framework.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libml_util.so:$(TARGET_COPY_OUT_ODM)/lib64/libml_util.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libmpbase.so:$(TARGET_COPY_OUT_ODM)/lib64/libmpbase.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libnp-loader.so:$(TARGET_COPY_OUT_ODM)/lib64/libnp-loader.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libocam_common.so:$(TARGET_COPY_OUT_ODM)/lib64/libocam_common.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libop-ai-beauty-body-detection.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-body-detection.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libop-ai-beauty-faceretouch-cn.so:$(TARGET_COPY_OUT_ODM)/lib64/libop-ai-beauty-faceretouch-cn.so \
     vendor/oplus/denniz/proprietary/odm/lib64/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplus_platform_hwi.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/liboplusblur_capture_api.so:$(TARGET_COPY_OUT_ODM)/lib64/liboplusblur_capture_api.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libstblur_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstblur_api.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libstblur_capture_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstblur_capture_api.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libstdc++.so:$(TARGET_COPY_OUT_ODM)/lib64/libstdc++.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libstface_fd_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstface_fd_api.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libstfaceunlockppl.so:$(TARGET_COPY_OUT_ODM)/lib64/libstfaceunlockppl.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libstfd_mobile_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstfd_mobile_api.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libtfavib.so:$(TARGET_COPY_OUT_ODM)/lib64/libtfavib.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libtflite_mtk_static.so:$(TARGET_COPY_OUT_ODM)/lib64/libtflite_mtk_static.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libui_oplus.so:$(TARGET_COPY_OUT_ODM)/lib64/libui_oplus.so \
-    vendor/oplus/denniz/proprietary/odm/lib64/libvideoautozoom.arcsoft.so:$(TARGET_COPY_OUT_ODM)/lib64/libvideoautozoom.arcsoft.so \
     vendor/oplus/denniz/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/oplus/denniz/proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
     vendor/oplus/denniz/proprietary/odm/vendor/app/mcRegistry/031c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/031c0000000000000000000000000000.drbin \
@@ -806,35 +335,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/09080000000000000000000000000000.tlbin \
     vendor/oplus/denniz/proprietary/odm/vendor/app/mcRegistry/6b3f5fa0f8cf55a7be2582587d62d63a.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/6b3f5fa0f8cf55a7be2582587d62d63a.drbin \
     vendor/oplus/denniz/proprietary/odm/vendor/app/mcRegistry/b230723bcfe75f8581122dc1f8e52f4d.tabin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/b230723bcfe75f8581122dc1f8e52f4d.tabin \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libHeifEncoderWrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifEncoderWrapper.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libHeifWinBufExchg-jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libHeifWinBufExchg-jni.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libNativeWinBuffExchange.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libNativeWinBuffExchange.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libOplusSloganClient.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libOplusSloganClient.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libOplusVirtualCamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libOplusVirtualCamera.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libSHS4D.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSHS4D.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libSloganJni.oplus.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libSloganJni.oplus.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libapuwareapusys.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareapusys.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libapuwareapusys_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareapusys_v2.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libapuwarehmp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarehmp.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libapuwareutils.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libapuwareutils_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils_v2.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libapuwarexrp_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp_v2.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libcsextimpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcsextimpl.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuron_graph_delegate.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuronusdk_adapter.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnir_neon_driver_ndk.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libnn_sample.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnn_sample.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/liboplusHeifDecoderImpl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusHeifDecoderImpl.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/liboplus_10bitHeif.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_10bitHeif.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/liboplus_heifconverter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_heifconverter.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/liboplus_imageprocessing.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplus_imageprocessing.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/liboplusheifwriter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/liboplusheifwriter.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libsuperNight.oplus.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsuperNight.oplus.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtflite_mtk.mtk.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/vendor.oplus.hardware.camera.slogan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.camera.slogan@1.0.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/vendor.oplus.hardware.cameraMDM@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.cameraMDM@1.0.so \
-    vendor/oplus/denniz/proprietary/system_ext/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/oplus/denniz/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     vendor/oplus/denniz/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     vendor/oplus/denniz/proprietary/vendor/app/mcRegistry/05120000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/05120000000000000000000000000000.drbin \
@@ -914,13 +414,68 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/firmware/soc3_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wifi_1a_1_hdr.bin \
     vendor/oplus/denniz/proprietary/vendor/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin \
     vendor/oplus/denniz/proprietary/vendor/firmware/valhall-1691526.wa:$(TARGET_COPY_OUT_VENDOR)/firmware/valhall-1691526.wa \
+    vendor/oplus/denniz/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
     vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
     vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxApeDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxApeDec.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
     vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
     vendor/oplus/denniz/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSQLiteModule_VER_ALL.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libcamdrv_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_imem.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libcamdrv_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_isp.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_tuning_mgr.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libcamdrv_twin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_twin.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libcamera_core_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_core_hwi.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libcameracustom.camera.sensors.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.camera.sensors.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libcameracustom.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.eis.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libcustomer_cameradata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustomer_cameradata.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libdip_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_drv.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libdip_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_imem.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libdip_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdip_postproc.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffecthal.base.so \
     vendor/oplus/denniz/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_gp_client.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_uree.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libhdrvideo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrvideo.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libheichal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libheichal.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libispcameraca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libispcameraca.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
     vendor/oplus/denniz/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtkisp_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkisp_metadata.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtknetutils.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkproperty.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkrillog.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtkspparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkspparser.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtksysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtksysutils.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libocam_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libocam_common.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/liboplus.aishutter.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus.aishutter.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/liboplus_audio_config.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus_audio_config.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/liboplus_mtkcam_lightsensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus_mtkcam_lightsensorprovider.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/liboplus_platform_hwi.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboplus_platform_hwi.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstereoinfoaccessor_vsdof.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.atms@1.0.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/vendor.mediatek.hardware.camera.isphal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.isphal@1.0.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oplus.hardware.cammidasservice@1.0.so \
+    vendor/oplus/denniz/proprietary/vendor/lib/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_stdutils.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1_mipi_raw_21127_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21127_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1_mipi_raw_21305_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21305_IdxMgr.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/gc02m1_mipi_raw_21651_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/gc02m1_mipi_raw_21651_IdxMgr.so \
@@ -961,7 +516,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/lib3a.ae.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.stat.so \
-    vendor/oplus/denniz/proprietary/vendor/lib64/lib3a.af.assist.models.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.assist.models.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/lib3a.af.assist.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.assist.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/lib3a.af.assist.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.assist.utils.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.core.so \
@@ -993,12 +547,9 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/lib64/libSonyIMX519PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibrary.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibraryWrapper.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
-    vendor/oplus/denniz/proprietary/vendor/lib64/libVDBlurless.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVDBlurless.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libaiawb_moon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon.so \
-    vendor/oplus/denniz/proprietary/vendor/lib64/libaiawb_moon_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon_model.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_p1ggm.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libaiawb_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_sun.so \
-    vendor/oplus/denniz/proprietary/vendor/lib64/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_sun_model.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libasn1c_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_core.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libasn1c_mapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mapi.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libasn1c_mdmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1c_mdmi.so \
@@ -1155,7 +706,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/lib64/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkhardware_legacy.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libmtkisp_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkisp_metadata.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtklimiter_vendor.so \
-    vendor/oplus/denniz/proprietary/vendor/lib64/libmtkmipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkmipc-ril.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libmtknetcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetcap.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetutils.so \
     vendor/oplus/denniz/proprietary/vendor/lib64/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkproperty.so \
