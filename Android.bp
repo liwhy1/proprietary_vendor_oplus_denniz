@@ -54,3 +54,1583 @@ dex_import {
 	jars: ["proprietary/system_ext/framework/com.oplus.camera.unit.sdk.jar"],
 	system_ext_specific: true,
 }
+
+cc_prebuilt_library_shared {
+    name: "libdip_drv",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libdip_drv.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libdip_drv.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.atms@1.0-impl",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libocam_common",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libocam_common.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libocam_common.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libRbsFlow",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libRbsFlow.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libRbsFlow.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libtfavib",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libtfavib.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libtfavib.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmindroid-framework",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libmindroid-framework.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libmindroid-framework.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "lib_rectify",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/lib_rectify.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/lib_rectify.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamdrv_isp",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libcamdrv_isp.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libcamdrv_isp.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.isphal@1.0-impl",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcutils",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtkcutils.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtkcutils.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liblvimfs",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/liblvimfs.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/liblvimfs.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libaiseg",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libaiseg.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libaiseg.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamdrv_twin",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libcamdrv_twin.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libcamdrv_twin.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.graphics.allocator@3.0",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/android.hardware.graphics.allocator@3.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/android.hardware.graphics.allocator@3.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.isphal@1.0",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.isphal@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libapsexif",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libapsexif.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libapsexif.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplus_platform_hwi",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/liboplus_platform_hwi.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/liboplus_platform_hwi.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdip_imem",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libdip_imem.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libdip_imem.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkspparser",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtkspparser.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtkspparser.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplus_audio_config",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/liboplus_audio_config.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/liboplus_audio_config.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.graphics.allocator@4.0",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/android.hardware.graphics.allocator@4.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/android.hardware.graphics.allocator@4.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "imx615_mipi_raw20817_tuning",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/imx615_mipi_raw20817_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/imx615_mipi_raw20817_tuning.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamdrv_imem",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libcamdrv_imem.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libcamdrv_imem.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMtkSpeechEnh",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libMtkSpeechEnh.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libMtkSpeechEnh.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstdc++",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libstdc++.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libstdc++.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgz_uree",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libgz_uree.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libgz_uree.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamdrv_tuning_mgr",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libcamdrv_tuning_mgr.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libcamdrv_tuning_mgr.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplus_mtkcam_lightsensorprovider",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/liboplus_mtkcam_lightsensorprovider.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/liboplus_mtkcam_lightsensorprovider.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oplus.hardware.cammidasservice@1.0_odm",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/vendor.oplus.hardware.cammidasservice@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oplus.hardware.cammidasservice@1.0_vendor",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/vendor.oplus.hardware.cammidasservice@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libgz_gp_client",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libgz_gp_client.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libgz_gp_client.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libCOppLceTonemapAPI",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libCOppLceTonemapAPI.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libCOppLceTonemapAPI.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcameracustom.camera.sensors",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libcameracustom.camera.sensors.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libcameracustom.camera.sensors.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMcClient",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libMcClient.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libMcClient.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "imx766_mipi_raw20817_tuning",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/imx766_mipi_raw20817_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/imx766_mipi_raw20817_tuning.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkares",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtkares.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtkares.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmpbase",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libmpbase.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libmpbase.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmindroid-app",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libmindroid-app.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libmindroid-app.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMtkOmxCore",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libMtkOmxCore.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libMtkOmxCore.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libWaterMark",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libWaterMark.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libWaterMark.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libDeVIS",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libDeVIS.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libDeVIS.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhyperlapse",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libhyperlapse.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libhyperlapse.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkhardware_legacy",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtkhardware_legacy.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtkhardware_legacy.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libTEECommon",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libTEECommon.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libTEECommon.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplus.aishutter",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/liboplus.aishutter.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/liboplus.aishutter.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcameracustom",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libcameracustom.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libcameracustom.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.oplus.hardware.cameraextension@1.0",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/lib/vendor.oplus.hardware.cameraextension@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/lib64/vendor.oplus.hardware.cameraextension@1.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libui_oplus",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libui_oplus.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libui_oplus.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkshifter_vendor",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtkshifter_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtkshifter_vendor.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libeffecthal.base",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libeffecthal.base.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libeffecthal.base.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtklimiter_vendor",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtklimiter_vendor.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtklimiter_vendor.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.bgservice@1.0",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtknetutils",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtknetutils.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtknetutils.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkisp_metadata",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtkisp_metadata.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtkisp_metadata.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libapspng",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libapspng.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libapspng.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "imx355_mipi_raw20817_tuning",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/imx355_mipi_raw20817_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/imx355_mipi_raw20817_tuning.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkproperty",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtkproperty.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtkproperty.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcamera_core_hwi",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libcamera_core_hwi.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libcamera_core_hwi.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libc++_shared",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libc++_shared.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libc++_shared.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libnp-loader",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libnp-loader.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libnp-loader.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcameracustom.eis",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libcameracustom.eis.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libcameracustom.eis.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtksysutils",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtksysutils.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtksysutils.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.atms@1.0",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liblvimfs_wrapper",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/liblvimfs_wrapper.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/liblvimfs_wrapper.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkcam_stdutils",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtkcam_stdutils.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtkcam_stdutils.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.bgservice@1.1-impl",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libalCFR",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libalCFR.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libalCFR.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.graphics.allocator@2.0",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/android.hardware.graphics.allocator@2.0.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/android.hardware.graphics.allocator@2.0.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "gc02m1b_mipi_mono20817_tuning",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/gc02m1b_mipi_mono20817_tuning.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/gc02m1b_mipi_mono20817_tuning.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmtkrillog",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libmtkrillog.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libmtkrillog.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdip_postproc",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libdip_postproc.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libdip_postproc.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libFilterWrapper",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libFilterWrapper.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libFilterWrapper.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libapsjpeg",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libapsjpeg.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libapsjpeg.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libOGLManager",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libOGLManager.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libOGLManager.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libRbsFlow_cap",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libRbsFlow_cap.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libRbsFlow_cap.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libcustomer_cameradata",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libcustomer_cameradata.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libcustomer_cameradata.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libstereoinfoaccessor_vsdof",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libstereoinfoaccessor_vsdof.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libEIS",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/odm/lib/libEIS.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/odm/lib64/libEIS.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "vendor.mediatek.hardware.camera.bgservice@1.1",
+    owner: "oplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so"],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    check_elf_files: false,
+    soc_specific: true,
+}
