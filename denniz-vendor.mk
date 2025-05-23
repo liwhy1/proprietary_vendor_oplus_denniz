@@ -160,7 +160,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
     vendor.mediatek.hardware.camera.isphal@1.0 \
     vendor.oplus.hardware.cammidasservice@1.0 \
-    libSQLiteModule_VER_ALL \
     libfgauge_gm30 \
     libmp3dec_mtk \
     gc02m1_mipi_raw_21127_IdxMgr \
@@ -284,7 +283,6 @@ PRODUCT_PACKAGES += \
     libcamalgo.vaidepth \
     libcamalgo.vsf \
     libcamalgo.warp \
-    libconnfem \
     libfeature.face \
     libfeature.stereo.provider \
     libfeature.vsdof.hal \
@@ -295,10 +293,6 @@ PRODUCT_PACKAGES += \
     libfeatureiodrv_mem \
     libforkexecwrap \
     libgwsdv2-ril \
-    libhfmanager \
-    libhfmanagerwrapper \
-    libimagebuffer_wrapper \
-    libmidasserviceintf \
     libmtkcam.atmseventmgr \
     libmtkcam.eventcallback \
     libmtkcam.featurepipe.capture \
