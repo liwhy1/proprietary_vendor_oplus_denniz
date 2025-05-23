@@ -8965,3 +8965,9 @@ cc_prebuilt_binary {
 	relative_install_path: "hw",
 	device_specific: true,
 }
+
+dex_import {
+	name: "oplus-support-wrapper",
+	owner: "oplus",
+	jars: ["proprietary/framework/oplus-support-wrapper.jar"],
+}
