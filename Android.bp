@@ -5289,7 +5289,7 @@ cc_prebuilt_library_shared {
 		android_arm: {
 			srcs: ["proprietary/odm/lib/liboplus_platform_hwi.so"],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/odm/lib64/liboplus_platform_hwi.so"],
 		},
 	},
@@ -9104,4 +9104,3 @@ cc_prebuilt_binary {
 	relative_install_path: "hw",
 	device_specific: true,
 }
-
