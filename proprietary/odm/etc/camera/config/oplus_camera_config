@@ -8,6 +8,13 @@
 },
 
 {
+  "VendorTag": "com.hdr.upgrade.bubble.tips.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.feature.video.eis.support",
   "Type": "Byte",
   "Count": "1",
@@ -29,14 +36,14 @@
 },
 
 {
-  "VendorTag": "com.oplus.sat.need.set.zoomratio",
+  "VendorTag": "com.oplus.feature.hyper.lapse.support",
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
 },
 
 {
-  "VendorTag": "com.oplus.feature.hyper.lapse.support",
+  "VendorTag": "com.oplus.sat.need.set.zoomratio",
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
@@ -553,6 +560,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.camera.rear.num",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "3"
+},
+
+{
   "VendorTag": "com.oplus.video.watermark.support",
   "Type": "Byte",
   "Count": "1",
@@ -599,13 +613,6 @@
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
-},
-
-{
-  "VendorTag": "com.oplus.camera.rear.num",
-  "Type": "Int32",
-  "Count": "1",
-  "Value": "3"
 },
 
 {
@@ -976,13 +983,6 @@
   "Type": "Int32",
   "Count": "1",
   "Value": "44"
-},
-
-{
-  "VendorTag": "com.hdr.upgrade.bubble.tips.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
 },
 
 {
