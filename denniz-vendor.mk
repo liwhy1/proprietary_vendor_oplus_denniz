@@ -161,7 +161,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.0 \
     vendor.oplus.hardware.cammidasservice@1.0 \
     libfgauge_gm30 \
-    libmp3dec_mtk \
     gc02m1_mipi_raw_21127_IdxMgr \
     gc02m1_mipi_raw_21305_IdxMgr \
     gc02m1_mipi_raw_21651_IdxMgr \
@@ -623,7 +622,6 @@ PRODUCT_PACKAGES += \
     libSuperTextWrapper \
     libVideoEnhance \
     libanc_np-loader \
-    libcdsprpc \
     libml_util \
     libtflite_mtk_static \
     libwatermark_photo \
@@ -635,4 +633,4 @@ PRODUCT_PACKAGES += \
     lib3a.ccu.pm \
     mcDriverDaemon \
     vendor.oplus.hardware.cammidasservice@1.0-service \
-	oplus-support-wrapper
+    oplus-support-wrapper
