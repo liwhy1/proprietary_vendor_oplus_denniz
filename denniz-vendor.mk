@@ -303,6 +303,21 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
     vendor/oplus/denniz/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
     vendor/oplus/denniz/proprietary/odm/etc/camera/neon_yuv_LUT_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/neon_yuv_LUT_64.bin \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/BeardSharp.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.bin \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/BeardSharp.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.frag \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/BeardSharp.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.vert \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.bin \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.frag \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinCalcHue.vert \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.bin \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.frag \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorBlur.vert \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.bin \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.frag \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinColorUnify.vert \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.bin \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.frag \
+    vendor/oplus/denniz/proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/SkinHueUnify.vert \
     vendor/oplus/denniz/proprietary/odm/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehParam.json \
     vendor/oplus/denniz/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
     vendor/oplus/denniz/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
@@ -561,7 +576,7 @@ PRODUCT_PACKAGES += \
     libcamdrv_isp \
     libcamdrv_tuning_mgr \
     libcamdrv_twin \
-    libcamera_core_hwi \
+    libcamera_core_hwi_odm \
     libcameracustom.camera.sensors \
     libcameracustom.eis \
     libcameracustom \
@@ -640,15 +655,12 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
     vendor.mediatek.hardware.camera.isphal@1.0 \
-    vendor.oplus.hardware.cammidasservice@1.0 \
-    lib3a.af.core \
+    vendor.oplus.hardware.cammidasservice@1.0_vendor \
     libMtkOmxAdpcmDec \
     libMtkOmxAlacDec \
     libMtkOmxApeDec \
     libMtkOmxGsmDec \
     libMtkOmxMp3Dec \
-    libSQLiteModule_VER_ALL \
-    libfeature_rss \
     libfgauge_gm30 \
     gc02m1_mipi_raw_21127_IdxMgr \
     gc02m1_mipi_raw_21305_IdxMgr \
@@ -687,8 +699,7 @@ PRODUCT_PACKAGES += \
     lib3a.af.assist.models \
     lib3a.af.core \
     lib3a.dce \
-    libMtkOmxCore \
-    libVDBlurless \
+    libVDBlurless_odm \
     libaiawb_moon_model \
     libaiawb_sun_model \
     libcam.chdr \
@@ -758,7 +769,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.commondcs@1.0 \
     libAPSClient-cmd-jni \
     libAPSClient-jni \
-    libAlgoProcess \
+    libAlgoProcess_odm \
     libAncFilter_jni \
     libAncHumBokeh-jni \
     libAncHumanDoubleExposure-jni \
@@ -775,10 +786,10 @@ PRODUCT_PACKAGES += \
     libOplusVirtualCamera \
     libSHS4D \
     libSloganJni.oplus \
-    libSuperTextWrapper \
+    libSuperTextWrapper_odm \
     libXDocProcessSDK-jni \
-    libXDocProcessSDK \
-    libYTCommon \
+    libXDocProcessSDK_odm \
+    libYTCommon_odm \
     libapuwareapusys.mtk \
     libapuwareapusys_v2.mtk \
     libapuwarehmp.mtk \
@@ -790,7 +801,7 @@ PRODUCT_PACKAGES += \
     libextendfile \
     libjnisingleblur_api \
     libjnistblur_api \
-    libmpbase \
+    libmpbase_odm \
     libneuron_graph_delegate.mtk \
     libneuronusdk_adapter.mtk \
     libnir_neon_driver_ndk.mtk \
@@ -1123,7 +1134,6 @@ PRODUCT_PACKAGES += \
     libimgClarityEvaluate \
     libmegface_rt_bokeh \
     libml_util \
-    liboplus_platform_hwi \
     liboplusblur_capture_api \
     libstblur_api \
     libstblur_capture_api \
@@ -1139,9 +1149,6 @@ PRODUCT_PACKAGES += \
     CFR_OPlus_EF017_UW_snapshot \
     CFR_imx355 \
     CFR_ov64b \
-    BeardSharp \
-    BeardSharp \
-    BeardSharp \
     PreAddSRBinary \
     PreBilaFilterBinary \
     PreBilaFilterBinaryV \
@@ -1173,18 +1180,6 @@ PRODUCT_PACKAGES += \
     PreSobelUpdateTwoBinary \
     PreVertFilterBinary \
     PreVertSurBinary \
-    SkinCalcHue \
-    SkinCalcHue \
-    SkinCalcHue \
-    SkinColorBlur \
-    SkinColorBlur \
-    SkinColorBlur \
-    SkinColorUnify \
-    SkinColorUnify \
-    SkinColorUnify \
-    SkinHueUnify \
-    SkinHueUnify \
-    SkinHueUnify \
     ThirdPartyPreHoriFilterBinary \
     ThirdPartyPreMorphBinary \
     ThirdPartyPreOnlywhitenBinary \

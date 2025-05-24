@@ -3389,7 +3389,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.cammidasservice@1.0",
+	name: "vendor.oplus.hardware.cammidasservice@1.0_vendor",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -3418,8 +3418,11 @@ cc_prebuilt_library_shared {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/lib3a.af.core.so"],
 		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/lib3a.af.core.so"],
+		},
 	},
-	compile_multilib: "32",
+	compile_multilib: "both",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3502,40 +3505,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libMtkOmxMp3Dec.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libSQLiteModule_VER_ALL",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libSQLiteModule_VER_ALL.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libfeature_rss",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libfeature_rss.so"],
 		},
 	},
 	compile_multilib: "32",
@@ -4159,23 +4128,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "lib3a.af.core",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/lib3a.af.core.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "lib3a.dce",
 	owner: "oplus",
 	strip: {
@@ -4184,23 +4136,6 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/lib3a.dce.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libMtkOmxCore",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libMtkOmxCore.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -10289,7 +10224,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libYTCommon",
+	name: "libYTCommon_odm",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -10469,7 +10404,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamera_core_hwi",
+	name: "libcamera_core_hwi_odm",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -10589,7 +10524,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmpbase",
+	name: "libmpbase_odm",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -10894,7 +10829,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libAlgoProcess",
+	name: "libAlgoProcess_odm",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -11438,7 +11373,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSuperTextWrapper",
+	name: "libSuperTextWrapper_odm",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -11472,7 +11407,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libVDBlurless",
+	name: "libVDBlurless_odm",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -11574,7 +11509,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libXDocProcessSDK",
+	name: "libXDocProcessSDK_odm",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -12305,23 +12240,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "liboplus_platform_hwi",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/liboplus_platform_hwi.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "liboplusblur_capture_api",
 	owner: "oplus",
 	strip: {
@@ -12518,33 +12436,6 @@ prebuilt_etc {
 	src: "proprietary/odm/etc/camera/cfr_bin/CFR_ov64b.bin",
 	filename_from_src: true,
 	sub_dir: "camera/cfr_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "BeardSharp",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/BeardSharp.bin",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "BeardSharp",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/BeardSharp.frag",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "BeardSharp",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/BeardSharp.vert",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
 	device_specific: true,
 }
 
@@ -12822,114 +12713,6 @@ prebuilt_etc {
 	name: "PreVertSurBinary",
 	owner: "oplus",
 	src: "proprietary/odm/etc/camera/pfb_bin/PreVertSurBinary.bin",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinCalcHue",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.bin",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinCalcHue",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.frag",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinCalcHue",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinCalcHue.vert",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinColorBlur",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.bin",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinColorBlur",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.frag",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinColorBlur",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinColorBlur.vert",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinColorUnify",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.bin",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinColorUnify",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.frag",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinColorUnify",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinColorUnify.vert",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinHueUnify",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.bin",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinHueUnify",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.frag",
-	filename_from_src: true,
-	sub_dir: "camera/pfb_bin",
-	device_specific: true,
-}
-
-prebuilt_etc {
-	name: "SkinHueUnify",
-	owner: "oplus",
-	src: "proprietary/odm/etc/camera/pfb_bin/SkinHueUnify.vert",
 	filename_from_src: true,
 	sub_dir: "camera/pfb_bin",
 	device_specific: true,
