@@ -1193,4 +1193,16 @@ PRODUCT_PACKAGES += \
     lib3a.ccu.dm \
     lib3a.ccu.pm \
     mcDriverDaemon \
-    vendor.oplus.hardware.cammidasservice@1.0-service
+    vendor.oplus.hardware.cammidasservice@1.0-service \
+    libmnetlink_v104 \
+    libmp3dec_mtk \
+    libmp4enc_sa.ca7 \
+    libmp4enc_xa.ca7 \
+    libfile_op \
+    libged \
+    libhdrvideo \
+    libheichal \
+    libispcameraca \
+    libmmprofile \
+    libdre \
+    libdynamiclog
