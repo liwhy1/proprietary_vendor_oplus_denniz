@@ -3425,6 +3425,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "vendor.oplus.hardware.cammidasservice@1.0_vendor",
+	stem: "vendor.oplus.hardware.cammidasservice@1.0",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -10386,6 +10387,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libYTCommon_odm",
+	stem: "libYTCommon",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -10566,6 +10568,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libcamera_core_hwi_odm",
+	stem: "libcamera_core_hwi",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -10686,6 +10689,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libmpbase_odm",
+	stem: "libmpbase",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -10991,6 +10995,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libAlgoProcess_odm",
+	stem: "libAlgoProcess",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -11518,6 +11523,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libSuperTextWrapper_odm",
+	stem: "libSuperTextWrapper",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -11552,6 +11558,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libVDBlurless_odm",
+	stem: "libVDBlurless",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -11654,6 +11661,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
 	name: "libXDocProcessSDK_odm",
+	stem: "libXDocProcessSDK",
 	owner: "oplus",
 	strip: {
 		none: true,
