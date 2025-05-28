@@ -1194,4 +1194,5 @@ PRODUCT_PACKAGES += \
     lib3a.ccu.pm \
     mcDriverDaemon \
     vendor.oplus.hardware.cammidasservice@1.0-service \
-    libmp3dec_mtk
+    libmp3dec_mtk \
+    libstdc++_odm

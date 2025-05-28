@@ -8,6 +8,24 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "libstdc++_odm",
+	stem: "libstdc++",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/odm/lib/libstdc++.so"],
+		},
+	},
+	compile_multilib: "32",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libmp3dec_mtk",
 	owner: "oplus",
 	strip: {
