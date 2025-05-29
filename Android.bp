@@ -3573,14 +3573,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/gc02m1_mipi_raw_21127_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/gc02m1_mipi_raw_21127_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3593,14 +3590,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/gc02m1_mipi_raw_21305_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/gc02m1_mipi_raw_21305_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3613,14 +3607,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/gc02m1_mipi_raw_21651_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/gc02m1_mipi_raw_21651_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3633,14 +3624,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/gc02m1b_mipi_mono20817_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/gc02m1b_mipi_mono20817_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3653,14 +3641,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/gc02m1b_mipi_mono21881_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/gc02m1b_mipi_mono21881_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3673,14 +3658,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/gc02m1b_mipi_mono_21127_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/gc02m1b_mipi_mono_21127_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3693,14 +3675,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/gc02m1b_mipi_mono_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/gc02m1b_mipi_mono_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3713,14 +3692,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/hi846_mipi_raw_20615_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hi846_mipi_raw_20615_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3769,14 +3745,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx355_mipi_raw20817_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx355_mipi_raw20817_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3789,14 +3762,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx355_mipi_raw21015_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx355_mipi_raw21015_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3809,14 +3779,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx355_mipi_raw21881_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx355_mipi_raw21881_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3829,14 +3796,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx355_mipi_raw_21061_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx355_mipi_raw_21061_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3849,14 +3813,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx355_mipi_raw_21305_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx355_mipi_raw_21305_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3869,14 +3830,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx355_mipi_raw_21651_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx355_mipi_raw_21651_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3889,14 +3847,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx355_mipi_raw_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx355_mipi_raw_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3909,14 +3864,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx471_mipi_raw_20615_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx471_mipi_raw_20615_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3929,14 +3881,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx471_mipi_raw_20619_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx471_mipi_raw_20619_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3949,14 +3898,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx471_mipi_raw_21127_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx471_mipi_raw_21127_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3969,14 +3915,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx471_mipi_raw_21651_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx471_mipi_raw_21651_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -3989,14 +3932,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx471_mipi_raw_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx471_mipi_raw_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4009,14 +3949,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx615_mipi_raw20817_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx615_mipi_raw20817_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4029,14 +3966,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx615_mipi_raw21881_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx615_mipi_raw21881_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4049,14 +3983,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx615_mipi_raw_21305_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx615_mipi_raw_21305_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4069,14 +4000,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx615_mipi_raw_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx615_mipi_raw_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4089,14 +4017,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx682_mipi_raw_20615_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx682_mipi_raw_20615_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4109,14 +4034,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx709_mipi_raw21015_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx709_mipi_raw21015_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4129,14 +4051,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx709_mipi_raw_21127_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx709_mipi_raw_21127_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4149,14 +4068,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx709_mipi_raw_21305_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx709_mipi_raw_21305_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4169,14 +4085,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx766_mipi_raw20817_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx766_mipi_raw20817_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4189,14 +4102,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx766_mipi_raw21015_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx766_mipi_raw21015_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4209,14 +4119,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx766_mipi_raw21881_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx766_mipi_raw21881_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -4229,14 +4136,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/imx766_mipi_raw_21305_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/imx766_mipi_raw_21305_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5066,14 +4970,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/ov02b10_mipi_raw21015_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ov02b10_mipi_raw21015_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5086,14 +4987,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/ov02b10_mipi_raw_20615_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ov02b10_mipi_raw_20615_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5106,14 +5004,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/ov02b10_mipi_raw_20619_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ov02b10_mipi_raw_20619_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5126,14 +5021,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/ov02b10_mipi_raw_21061_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ov02b10_mipi_raw_21061_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5146,14 +5038,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/ov02b10_mipi_raw_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ov02b10_mipi_raw_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5166,14 +5055,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/ov50a_mipi_raw_21127_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ov50a_mipi_raw_21127_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5186,14 +5072,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/ov64b_mipi_raw_20619_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ov64b_mipi_raw_20619_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5206,14 +5089,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/ov64b_mipi_raw_21061_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ov64b_mipi_raw_21061_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5226,14 +5106,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/ov64b_mipi_raw_21651_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ov64b_mipi_raw_21651_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
@@ -5246,14 +5123,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/ov64b_mipi_raw_IdxMgr.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ov64b_mipi_raw_IdxMgr.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	soc_specific: true,
