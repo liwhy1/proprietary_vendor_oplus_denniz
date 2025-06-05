@@ -916,10 +916,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.oplus.hardware.cammidasservice@1.0.so"],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so"],
 		},
 	},
@@ -5874,10 +5874,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/odm/lib/libYTCommon.so"],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libYTCommon.so"],
 		},
 	},
@@ -6055,10 +6055,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/odm/lib/libcamera_core_hwi.so"],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libcamera_core_hwi.so"],
 		},
 	},
@@ -6176,10 +6176,10 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/odm/lib/libmpbase.so"],
 		},
-		: {
+		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libmpbase.so"],
 		},
 	},
@@ -6394,7 +6394,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm: {
 			srcs: ["proprietary/odm/lib/libstdc++.so"],
 		},
 	},
@@ -6568,7 +6568,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libAlgoProcess.so"],
 		},
 	},
