@@ -487,97 +487,20 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/system_ext/etc/public.libraries-oplus.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-oplus.txt
 
 PRODUCT_PACKAGES += \
+    vendor.oplus.hardware.osense.client@1.0_system \
     vendor.oplus.hardware.cameraextension@1.0 \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.isphal@1.0-impl \
-    lib3a.ae.core \
-    lib3a.ae \
-    lib3a.ae.stat \
-    lib3a.af.assist \
-    lib3a.af.assist.utils \
-    lib3a.af \
-    lib3a.aishutter.models \
-    lib3a.alsflicker \
-    lib3a.awb.core \
-    lib3a.ccudrv \
-    lib3a.ccuif \
-    lib3a.custom.ae \
-    lib3a.flash \
-    lib3a.flicker \
-    lib3a.gma \
-    lib3a.lce \
-    lib3a.log \
-    lib3a.n3d3a \
-    lib3a.sensors.color \
-    lib3a.sensors.flicker \
     libMcClient \
     libMtkSpeechEnh \
-    libSonyIMX230PdafLibrary \
-    libSonyIMX230PdafLibraryWrapper \
-    libSonyIMX338PdafLibrary \
-    libSonyIMX338PdafLibraryWrapper \
-    libSonyIMX386PdafLibrary \
-    libSonyIMX386PdafLibraryWrapper \
-    libSonyIMX519PdafLibrary \
-    libSonyIMX519PdafLibraryWrapper \
     libTEECommon \
-    libaiawb_moon \
-    libaiawb_p1ggm \
-    libaiawb_sun \
-    libasn1c_core \
-    libasn1c_mapi \
-    libasn1c_mdmi \
-    libcam.afhal \
-    libcam.feature_utils \
-    libcam.hal3a.log \
-    libcam.hal3a.v3.ae \
-    libcam.hal3a.v3.ai3a \
-    libcam.hal3a.v3.awb \
-    libcam.hal3a.v3.fsmgr \
-    libcam.hal3a.v3.lscMgr \
-    libcam.hal3a.v3.lsctbl.50 \
-    libcam.hal3a.v3.nvram.50 \
-    libcam.hal3a.v3.platform \
-    libcam.hal3a.v3.resultpool \
-    libcam.hal3a.v3 \
-    libcam.halisp.buf \
-    libcam.halsensor.hwintegration \
-    libcam.halsensor \
-    libcam.iopipe \
-    libcam.isptuning \
-    libcam.pdtblgen \
-    libcam.seninfn3d \
-    libcam.tuning.cache \
-    libcam.utils.sensorprovider \
-    libcam.vhdr \
-    libcamalgo.3dnr \
-    libcamalgo.aibc \
-    libcamalgo.aihdr \
-    libcamalgo.ainr \
-    libcamalgo.dngop \
-    libcamalgo.eis \
-    libcamalgo.fsc \
-    libcamalgo.gyro \
-    libcamalgo.ispfeature \
-    libcamalgo.lmv \
-    libcamalgo.lsc \
-    libcamalgo.mfnr \
-    libcamalgo.n3d \
-    libcamalgo.nr \
-    libcamalgo.platform \
-    libcamalgo.platform2 \
-    libcamalgo.rotate \
-    libcamalgo.utility \
-    libcamalgo.vaidepth \
-    libcamalgo.vsf \
-    libcamalgo.warp \
     libcamdrv_imem \
     libcamdrv_isp \
     libcamdrv_tuning_mgr \
     libcamdrv_twin \
-    libcamera_core_hwi_odm \
+    libcamera_core_hwi \
     libcameracustom.camera.sensors \
     libcameracustom.eis \
     libcameracustom \
@@ -586,56 +509,9 @@ PRODUCT_PACKAGES += \
     libdip_imem \
     libdip_postproc \
     libeffecthal.base \
-    libfeature.face \
-    libfeature.stereo.provider \
-    libfeature.vsdof.hal \
-    libfeature_3dnr \
-    libfeature_eis \
-    libfeature_fsc \
-    libfeature_lmv \
-    libfeatureiodrv_mem \
     libgz_gp_client \
     libgz_uree \
     libmtkares \
-    libmtkcam.atmseventmgr \
-    libmtkcam.eventcallback \
-    libmtkcam.featurepipe.capture \
-    libmtkcam.featurepipe.depthmap \
-    libmtkcam.featurepipe.streaming \
-    libmtkcam.featurepipe.vsdof_util \
-    libmtkcam.logicalmodule \
-    libmtkcam_3rdparty.core \
-    libmtkcam_3rdparty.customer \
-    libmtkcam_3rdparty.mtk \
-    libmtkcam_3rdparty \
-    libmtkcam_calibration_convertor \
-    libmtkcam_calibration_provider \
-    libmtkcam_debugutils \
-    libmtkcam_diputils \
-    libmtkcam_exif \
-    libmtkcam_fdvt \
-    libmtkcam_grallocutils \
-    libmtkcam_hwnode \
-    libmtkcam_hwutils \
-    libmtkcam_imgbuf \
-    libmtkcam_mapping_mgr \
-    libmtkcam_metadata \
-    libmtkcam_metastore \
-    libmtkcam_mfb \
-    libmtkcam_modulehelper \
-    libmtkcam_owe \
-    libmtkcam_pipeline \
-    libmtkcam_pipeline_fbm \
-    libmtkcam_pipelinemodel_isp \
-    libmtkcam_prerelease \
-    libmtkcam_rsc \
-    libmtkcam_scenariorecorder \
-    libmtkcam_stdutils \
-    libmtkcam_streamutils \
-    libmtkcam_synchelper \
-    libmtkcam_sysutils \
-    libmtkcam_tuning_utils \
-    libmtkcam_ulog \
     libmtkcutils \
     libmtkhardware_legacy \
     libmtkisp_metadata \
@@ -657,11 +533,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
     vendor.mediatek.hardware.camera.isphal@1.0 \
     vendor.oplus.hardware.cammidasservice@1.0_vendor \
-    libMtkOmxAdpcmDec \
-    libMtkOmxAlacDec \
-    libMtkOmxApeDec \
-    libMtkOmxGsmDec \
-    libMtkOmxMp3Dec \
     libfgauge_gm30 \
     gc02m1_mipi_raw_21127_IdxMgr \
     gc02m1_mipi_raw_21305_IdxMgr \
@@ -697,37 +568,153 @@ PRODUCT_PACKAGES += \
     imx766_mipi_raw21015_IdxMgr \
     imx766_mipi_raw21881_IdxMgr \
     imx766_mipi_raw_21305_IdxMgr \
+    lib3a.ae.core \
+    lib3a.ae \
+    lib3a.ae.stat \
     lib3a.af.assist.models \
+    lib3a.af.assist \
+    lib3a.af.assist.utils \
     lib3a.af.core \
+    lib3a.af \
+    lib3a.aishutter.models \
+    lib3a.alsflicker \
+    lib3a.awb.core \
+    lib3a.ccudrv \
+    lib3a.ccuif \
+    lib3a.custom.ae \
     lib3a.dce \
-    libVDBlurless_odm \
+    lib3a.flash \
+    lib3a.flicker \
+    lib3a.gma \
+    lib3a.lce \
+    lib3a.log \
+    lib3a.n3d3a \
+    lib3a.sensors.color \
+    lib3a.sensors.flicker \
+    libSonyIMX230PdafLibrary \
+    libSonyIMX230PdafLibraryWrapper \
+    libSonyIMX338PdafLibrary \
+    libSonyIMX338PdafLibraryWrapper \
+    libSonyIMX386PdafLibrary \
+    libSonyIMX386PdafLibraryWrapper \
+    libSonyIMX519PdafLibrary \
+    libSonyIMX519PdafLibraryWrapper \
+    libVDBlurless \
+    libaiawb_moon \
     libaiawb_moon_model \
+    libaiawb_p1ggm \
+    libaiawb_sun \
     libaiawb_sun_model \
+    libasn1c_core \
+    libasn1c_mapi \
+    libasn1c_mdmi \
+    libcam.afhal \
     libcam.chdr \
+    libcam.feature_utils \
     libcam.hal3a.cctsvr \
+    libcam.hal3a.log \
+    libcam.hal3a.v3.ae \
+    libcam.hal3a.v3.ai3a \
+    libcam.hal3a.v3.awb \
     libcam.hal3a.v3.dng \
+    libcam.hal3a.v3.fsmgr \
+    libcam.hal3a.v3.lscMgr \
+    libcam.hal3a.v3.lsctbl.50 \
+    libcam.hal3a.v3.nvram.50 \
+    libcam.hal3a.v3.platform \
+    libcam.hal3a.v3.resultpool \
+    libcam.hal3a.v3 \
+    libcam.halisp.buf \
     libcam.halisp.common \
     libcam.halisp \
+    libcam.halsensor.hwintegration \
+    libcam.halsensor \
+    libcam.iopipe \
+    libcam.isptuning \
+    libcam.pdtblgen \
+    libcam.seninfn3d \
+    libcam.tuning.cache \
+    libcam.utils.sensorprovider \
+    libcam.vhdr \
+    libcamalgo.3dnr \
+    libcamalgo.aibc \
     libcamalgo.aidepth \
+    libcamalgo.aihdr \
+    libcamalgo.ainr \
+    libcamalgo.dngop \
+    libcamalgo.eis \
     libcamalgo.fdft \
+    libcamalgo.fsc \
+    libcamalgo.gyro \
+    libcamalgo.ispfeature \
+    libcamalgo.lmv \
+    libcamalgo.lsc \
+    libcamalgo.mfnr \
+    libcamalgo.n3d \
+    libcamalgo.nr \
+    libcamalgo.platform \
+    libcamalgo.platform2 \
+    libcamalgo.rotate \
+    libcamalgo.utility \
+    libcamalgo.vaidepth \
+    libcamalgo.vsf \
+    libcamalgo.warp \
+    libfeature.face \
+    libfeature.stereo.provider \
+    libfeature.vsdof.hal \
+    libfeature_3dnr \
+    libfeature_eis \
+    libfeature_fsc \
+    libfeature_lmv \
+    libfeatureiodrv_mem \
     libforkexecwrap \
     libgwsdv2-ril \
+    libmtkcam.atmseventmgr \
+    libmtkcam.eventcallback \
+    libmtkcam.featurepipe.capture \
+    libmtkcam.featurepipe.depthmap \
+    libmtkcam.featurepipe.streaming \
+    libmtkcam.featurepipe.vsdof_util \
+    libmtkcam.logicalmodule \
+    libmtkcam_3rdparty.core \
+    libmtkcam_3rdparty.customer \
+    libmtkcam_3rdparty.mtk \
+    libmtkcam_3rdparty \
+    libmtkcam_calibration_convertor \
+    libmtkcam_calibration_provider \
+    libmtkcam_debugutils \
     libmtkcam_device3_app \
     libmtkcam_device3_hal \
     libmtkcam_device3_hidl \
     libmtkcam_device3_hidlutils \
     libmtkcam_device3_utils \
     libmtkcam_devicesessionpolicy \
+    libmtkcam_diputils \
+    libmtkcam_exif \
+    libmtkcam_fdvt \
     libmtkcam_featurepolicy \
     libmtkcam_featureutils \
     libmtkcam_fwkutils \
+    libmtkcam_grallocutils \
+    libmtkcam_hwnode \
+    libmtkcam_hwutils \
+    libmtkcam_imgbuf \
+    libmtkcam_mapping_mgr \
+    libmtkcam_metadata \
+    libmtkcam_metastore \
+    libmtkcam_mfb \
     libmtkcam_modulefactory_aaa \
     libmtkcam_modulefactory_custom \
     libmtkcam_modulefactory_drv \
     libmtkcam_modulefactory_utils \
+    libmtkcam_modulehelper \
+    libmtkcam_owe \
+    libmtkcam_pipeline \
+    libmtkcam_pipeline_fbm \
     libmtkcam_pipelinemodel \
     libmtkcam_pipelinemodel_adapter \
     libmtkcam_pipelinemodel_capture \
+    libmtkcam_pipelinemodel_isp \
     libmtkcam_pipelinemodel_session \
     libmtkcam_pipelinemodel_utils \
     libmtkcam_pipelinemodel_zsl \
@@ -736,6 +723,15 @@ PRODUCT_PACKAGES += \
     libmtkcam_pipelinepolicy-smvr \
     libmtkcam_pipelinepolicy \
     libmtkcam_pipelinepolicy_factory \
+    libmtkcam_prerelease \
+    libmtkcam_rsc \
+    libmtkcam_scenariorecorder \
+    libmtkcam_stdutils \
+    libmtkcam_streamutils \
+    libmtkcam_synchelper \
+    libmtkcam_sysutils \
+    libmtkcam_tuning_utils \
+    libmtkcam_ulog \
     libmtkconfig \
     libmtkconfigutils \
     libmtkmipc-ril \
@@ -766,11 +762,12 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
+    vendor.oplus.hardware.camera.slogan@1.0 \
     vendor.oplus.hardware.cameraMDM@1.0 \
     vendor.oplus.hardware.commondcs@1.0_system \
     libAPSClient-cmd-jni \
     libAPSClient-jni \
-    libAlgoProcess_odm \
+    libAlgoProcess \
     libAncFilter_jni \
     libAncHumBokeh-jni \
     libAncHumanDoubleExposure-jni \
@@ -787,10 +784,10 @@ PRODUCT_PACKAGES += \
     libOplusVirtualCamera \
     libSHS4D \
     libSloganJni.oplus \
-    libSuperTextWrapper_odm \
+    libSuperTextWrapper \
     libXDocProcessSDK-jni \
-    libXDocProcessSDK_odm \
-    libYTCommon_odm \
+    libXDocProcessSDK \
+    libYTCommon \
     libapuwareapusys.mtk \
     libapuwareapusys_v2.mtk \
     libapuwarehmp.mtk \
@@ -802,7 +799,7 @@ PRODUCT_PACKAGES += \
     libextendfile \
     libjnisingleblur_api \
     libjnistblur_api \
-    libmpbase_odm \
+    libmpbase \
     libneuron_graph_delegate.mtk_system \
     libneuronusdk_adapter.mtk \
     libnir_neon_driver_ndk.mtk \
@@ -815,12 +812,61 @@ PRODUCT_PACKAGES += \
     libsingle_camera_bokeh_native \
     libsuperNight.oplus \
     libtflite_mtk.mtk \
-    vendor.oplus.hardware.camera.slogan@1.0 \
+    libCOppLceTonemapAPI \
+    libDeVIS \
+    libEIS \
+    libFilterWrapper \
+    libOGLManager \
+    libRbsFlow \
+    libRbsFlow_cap \
+    libVDExternal \
+    libWaterMark \
+    libYTCommon_odm \
+    lib_rectify \
+    libaiseg \
+    libalCFR \
+    libanc_np-loader \
+    libapsexif \
+    libapsjpeg \
+    libapspng \
+    libc++_shared \
+    libcamera_core_hwi_odm \
+    libhyperlapse \
+    liblvimfs \
+    liblvimfs_wrapper \
+    libmindroid-app \
+    libmindroid-framework \
+    libmpbase_odm \
+    libnp-loader \
+    libocam_common_odm \
+    libop-ai-beauty-body-detection \
+    libop-ai-beauty-faceretouch-cn \
+    liboplus_platform_hwi_odm \
+    libtfavib \
+    libui_oplus \
+    vendor.oplus.hardware.cammidasservice@1.0_odm \
+    libaiboost_sr \
+    libmtk-subsys-service \
+    libstdc++_odm \
+    android.hardware.graphics.allocator@2.0_odm \
+    android.hardware.graphics.allocator@3.0_odm \
+    android.hardware.graphics.allocator@4.0_odm \
     gc02m1b_mipi_mono20817_tuning \
     imx355_mipi_raw20817_tuning \
     imx615_mipi_raw20817_tuning \
     imx766_mipi_raw20817_tuning \
-    libCOppLceTonemapAPI \
+    lib2DSlender \
+    libAlgoInterface \
+    libAlgoProcess_odm \
+    libAncFilter \
+    libAncHumBokeh \
+    libAncHumBokehPost \
+    libAncHumVideoBase \
+    libAncHumVideoBasePost \
+    libAncHumanDoubleExposure \
+    libAncHumanSegFigureFusion \
+    libAncSegmentSdk \
+    libBokehPre \
     libCamera_gc02m1bmipimono20817_E2EHDR_Preview \
     libCamera_gc02m1bmipimono20817_E2EHDR_Video \
     libCamera_gc02m1bmipimono20817_Face_Capture \
@@ -1013,55 +1059,6 @@ PRODUCT_PACKAGES += \
     libCamera_imx766mipiraw20817_portrait_preview_full \
     libCamera_imx766mipiraw20817_zHDR_Face_Capture \
     libCamera_imx766mipiraw20817_zHDR_Scene_Capture \
-    libDeVIS \
-    libEIS \
-    libFilterWrapper \
-    libOGLManager \
-    libRbsFlow \
-    libRbsFlow_cap \
-    libVDExternal \
-    libWaterMark \
-    libYTCommon \
-    lib_rectify \
-    libaiseg \
-    libalCFR \
-    libanc_np-loader \
-    libapsexif \
-    libapsjpeg \
-    libapspng \
-    libc++_shared \
-    libcamera_core_hwi \
-    libhyperlapse \
-    liblvimfs \
-    liblvimfs_wrapper \
-    libmindroid-app \
-    libmindroid-framework \
-    libmpbase \
-    libnp-loader \
-    libocam_common_odm \
-    libop-ai-beauty-body-detection \
-    libop-ai-beauty-faceretouch-cn \
-    liboplus_platform_hwi_odm \
-    libtfavib \
-    libui_oplus \
-    vendor.oplus.hardware.cammidasservice@1.0_odm \
-    libaiboost_sr \
-    libmtk-subsys-service \
-    android.hardware.graphics.allocator@2.0_odm \
-    android.hardware.graphics.allocator@3.0_odm \
-    android.hardware.graphics.allocator@4.0_odm \
-    lib2DSlender \
-    libAlgoInterface \
-    libAlgoProcess \
-    libAncFilter \
-    libAncHumBokeh \
-    libAncHumBokehPost \
-    libAncHumVideoBase \
-    libAncHumVideoBasePost \
-    libAncHumanDoubleExposure \
-    libAncHumanSegFigureFusion \
-    libAncSegmentSdk \
-    libBokehPre \
     libCipCommon \
     libCipParamProcess \
     libCipParameter0 \
@@ -1083,15 +1080,15 @@ PRODUCT_PACKAGES += \
     libPerfectlyClearCruxOpt \
     libPolarrRender \
     libPreviewDecisionOld \
-    libSuperTextWrapper \
+    libSuperTextWrapper_odm \
     libVDBayerHDR \
-    libVDBlurless \
+    libVDBlurless_odm \
     libVDDualCameraBlurlessAPI \
     libVDPostureDetection \
     libVDSuperPhotoAPI \
     libVDUpScale \
     libVideoEnhance \
-    libXDocProcessSDK \
+    libXDocProcessSDK_odm \
     libaisal \
     libaisd \
     libancbase_rt_bokeh \
@@ -1194,6 +1191,4 @@ PRODUCT_PACKAGES += \
     lib3a.ccu.dm \
     lib3a.ccu.pm \
     mcDriverDaemon \
-    vendor.oplus.hardware.cammidasservice@1.0-service \
-    libstdc++_odm \
-    vendor.oplus.hardware.osense.client@1.0_system
+    vendor.oplus.hardware.cammidasservice@1.0-service
