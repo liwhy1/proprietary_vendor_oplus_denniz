@@ -483,7 +483,8 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/firmware/soc3_0_ram_mcu_e1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_e1_hdr.bin \
     vendor/oplus/denniz/proprietary/vendor/firmware/soc3_0_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wifi_1a_1_hdr.bin \
     vendor/oplus/denniz/proprietary/vendor/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_wmmcu_1a_1_hdr.bin \
-    vendor/oplus/denniz/proprietary/vendor/firmware/valhall-1691526.wa:$(TARGET_COPY_OUT_VENDOR)/firmware/valhall-1691526.wa
+    vendor/oplus/denniz/proprietary/vendor/firmware/valhall-1691526.wa:$(TARGET_COPY_OUT_VENDOR)/firmware/valhall-1691526.wa \
+    vendor/oplus/denniz/proprietary/system_ext/etc/public.libraries-oplus.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-oplus.txt
 
 PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cameraextension@1.0 \
@@ -766,7 +767,7 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
     vendor.oplus.hardware.cameraMDM@1.0 \
-    vendor.oplus.hardware.commondcs@1.0 \
+    vendor.oplus.hardware.commondcs@1.0_system \
     libAPSClient-cmd-jni \
     libAPSClient-jni \
     libAlgoProcess_odm \
@@ -802,7 +803,7 @@ PRODUCT_PACKAGES += \
     libjnisingleblur_api \
     libjnistblur_api \
     libmpbase_odm \
-    libneuron_graph_delegate.mtk \
+    libneuron_graph_delegate.mtk_system \
     libneuronusdk_adapter.mtk \
     libnir_neon_driver_ndk.mtk \
     libnn_sample \
@@ -1194,4 +1195,5 @@ PRODUCT_PACKAGES += \
     lib3a.ccu.pm \
     mcDriverDaemon \
     vendor.oplus.hardware.cammidasservice@1.0-service \
-    libstdc++_odm
+    libstdc++_odm \
+    vendor.oplus.hardware.osense.client@1.0_system

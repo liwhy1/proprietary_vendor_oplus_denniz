@@ -8,6 +8,26 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.osense.client@1.0_system",
+	stem: "vendor.oplus.hardware.osense.client@1.0",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/system_ext/lib/vendor.oplus.hardware.osense.client@1.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/system_ext/lib64/vendor.oplus.hardware.osense.client@1.0.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libstdc++_odm",
 	stem: "libstdc++",
 	owner: "oplus",
@@ -5307,7 +5327,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.commondcs@1.0",
+	name: "vendor.oplus.hardware.commondcs@1.0_system",
+	stem: "vendor.oplus.hardware.commondcs@1.0",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -5922,7 +5943,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libneuron_graph_delegate.mtk",
+	name: "libneuron_graph_delegate.mtk_system",
+	stem: "libneuron_graph_delegate.mtk",
 	owner: "oplus",
 	strip: {
 		none: true,
