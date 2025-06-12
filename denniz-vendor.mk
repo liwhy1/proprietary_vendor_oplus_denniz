@@ -1191,4 +1191,5 @@ PRODUCT_PACKAGES += \
     lib3a.ccu.dm \
     lib3a.ccu.pm \
     mcDriverDaemon \
-    vendor.oplus.hardware.cammidasservice@1.0-service
+    vendor.oplus.hardware.cammidasservice@1.0-service \
+    libdla_loader_ins

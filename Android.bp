@@ -8,6 +8,23 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "libdla_loader_ins",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libdla_loader_ins.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "vendor.oplus.hardware.osense.client@1.0_system",
 	stem: "vendor.oplus.hardware.osense.client@1.0",
 	owner: "oplus",
