@@ -825,7 +825,6 @@ PRODUCT_PACKAGES += \
     lib_rectify \
     libaiseg \
     libalCFR \
-    libanc_np-loader \
     libapsexif \
     libapsjpeg \
     libapspng \
@@ -845,7 +844,6 @@ PRODUCT_PACKAGES += \
     libtfavib \
     libui_oplus \
     vendor.oplus.hardware.cammidasservice@1.0_odm \
-    libaiboost_sr \
     libmtk-subsys-service \
     libstdc++_odm \
     android.hardware.graphics.allocator@2.0_odm \
@@ -1059,17 +1057,6 @@ PRODUCT_PACKAGES += \
     libCamera_imx766mipiraw20817_portrait_preview_full \
     libCamera_imx766mipiraw20817_zHDR_Face_Capture \
     libCamera_imx766mipiraw20817_zHDR_Scene_Capture \
-    libCipCommon \
-    libCipParamProcess \
-    libCipParameter0 \
-    libCipParameter1 \
-    libCipParameter2 \
-    libCipParameter3 \
-    libCipParameter4 \
-    libCipParameter5 \
-    libCipParameter6 \
-    libCipParameter7 \
-    libCipo_awb \
     libFDClite \
     libFaceBeautyCap \
     libFaceBeautyJni \
