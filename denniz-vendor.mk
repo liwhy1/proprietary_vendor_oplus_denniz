@@ -359,7 +359,6 @@ PRODUCT_PACKAGES += \
     libmtkcam_ulog \
     libmtkconfig \
     libmtkconfigutils \
-    libmtkmipc-ril \
     libmtknetcap \
     libmtkrilutils \
     libmtktinyxml \
