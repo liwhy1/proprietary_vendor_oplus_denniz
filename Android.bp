@@ -8,44 +8,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.cameraextension@1.0",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/lib/vendor.oplus.hardware.cameraextension@1.0.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/lib64/vendor.oplus.hardware.cameraextension@1.0.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.cammidasservice@1.0",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/lib/vendor.oplus.hardware.cammidasservice@1.0.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/lib64/vendor.oplus.hardware.cammidasservice@1.0.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.mediatek.hardware.camera.atms@1.0-impl",
 	owner: "oplus",
 	strip: {
@@ -889,8 +851,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.cammidasservice@1.0_vendor",
-	stem: "vendor.oplus.hardware.cammidasservice@1.0",
+	name: "vendor.oplus.hardware.cammidasservice@1.0",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -4329,23 +4290,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libperfctl_vendor",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libperfctl_vendor.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libtrm",
 	owner: "oplus",
 	strip: {
@@ -4721,344 +4665,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libAlgoProcess",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/libAlgoProcess.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libCOppLceTonemapAPI",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libCOppLceTonemapAPI.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libCOppLceTonemapAPI.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libDeVIS",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libDeVIS.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libDeVIS.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libEIS",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libEIS.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libEIS.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libFilterWrapper",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libFilterWrapper.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libFilterWrapper.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libOGLManager",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libOGLManager.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libOGLManager.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libRbsFlow",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libRbsFlow.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libRbsFlow.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libRbsFlow_cap",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libRbsFlow_cap.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libRbsFlow_cap.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libWaterMark",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libWaterMark.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libWaterMark.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "lib_rectify",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/lib_rectify.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/lib_rectify.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libaiseg",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libaiseg.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libaiseg.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libalCFR",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libalCFR.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libalCFR.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libapsexif",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libapsexif.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libapsexif.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libapsjpeg",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libapsjpeg.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libapsjpeg.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libapspng",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libapspng.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libapspng.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libcamera_core_hwi_odm",
-	stem: "libcamera_core_hwi",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libcamera_core_hwi.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libcamera_core_hwi.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libhyperlapse",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libhyperlapse.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libhyperlapse.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "liblvimfs",
 	owner: "oplus",
 	strip: {
@@ -5139,27 +4745,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmpbase_odm",
-	stem: "libmpbase",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libmpbase.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libmpbase.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libnp-loader",
 	owner: "oplus",
 	strip: {
@@ -5171,48 +4756,6 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libnp-loader.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libocam_common_odm",
-	stem: "libocam_common",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libocam_common.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libocam_common.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "liboplus_platform_hwi_odm",
-	stem: "liboplus_platform_hwi",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/liboplus_platform_hwi.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/liboplus_platform_hwi.so"],
 		},
 	},
 	compile_multilib: "both",
@@ -5242,99 +4785,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libui_oplus",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libui_oplus.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/libui_oplus.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.oplus.hardware.cammidasservice@1.0_odm",
-	stem: "vendor.oplus.hardware.cammidasservice@1.0",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/vendor.oplus.hardware.cammidasservice@1.0.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libVDExternal",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libVDExternal.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libYTCommon_odm",
-	stem: "libYTCommon",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libYTCommon.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libc++_shared",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libc++_shared.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "libmtk-subsys-service",
 	owner: "oplus",
 	strip: {
@@ -5352,42 +4802,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libop-ai-beauty-body-detection",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libop-ai-beauty-body-detection.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libop-ai-beauty-faceretouch-cn",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libop-ai-beauty-faceretouch-cn.so"],
-		},
-	},
-	compile_multilib: "32",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libstdc++_odm",
-	stem: "libstdc++",
+	name: "libstdc++",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -5534,6 +4949,23 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libBokehPre.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libCOppLceTonemapAPI",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libCOppLceTonemapAPI.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -8807,8 +8239,109 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSuperTextWrapper_odm",
-	stem: "libSuperTextWrapper",
+	name: "libDeVIS",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libDeVIS.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libEIS",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libEIS.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libFilterWrapper",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libFilterWrapper.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libOGLManager",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libOGLManager.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libRbsFlow",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libRbsFlow.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libRbsFlow_cap",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libRbsFlow_cap.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libSuperTextWrapper_",
 	owner: "oplus",
 	strip: {
 		none: true,
@@ -8842,6 +8375,74 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libWaterMark",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libWaterMark.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "lib_rectify",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/lib_rectify.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libaiseg",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libaiseg.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libalCFR",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libalCFR.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libanc_np-loader",
 	owner: "oplus",
 	strip: {
@@ -8850,6 +8451,93 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libanc_np-loader.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libapsexif",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libapsexif.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libapsjpeg",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libapsjpeg.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libapspng",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libapspng.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libcamera_core_hwi_odm
+",
+	stem: "libcamera_core_hwi",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libcamera_core_hwi.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libhyperlapse",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libhyperlapse.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -8876,6 +8564,59 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libmpbase",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libmpbase.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libocam_common_odm",
+	stem: "libocam_common",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libocam_common.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "liboplus_platform_hwi_odm",
+	stem: "liboplus_platform_hwi",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/liboplus_platform_hwi.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libtflite_mtk_static",
 	owner: "oplus",
 	strip: {
@@ -8893,6 +8634,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libui_oplus",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/libui_oplus.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libwatermark_photo",
 	owner: "oplus",
 	strip: {
@@ -8901,6 +8659,24 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libwatermark_photo.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+	device_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.oplus.hardware.cammidasservice@1.0_odm",
+	stem: "vendor.oplus.hardware.cammidasservice@1.0",
+	owner: "oplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -8954,30 +8730,6 @@ cc_prebuilt_binary {
 	soc_specific: true,
 }
 
-sh_binary {
-	name: "lib3a.ccu.ddr",
-	owner: "oplus",
-	src: "proprietary/vendor/bin/lib3a.ccu.ddr",
-	filename: "lib3a.ccu.ddr",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "lib3a.ccu.dm",
-	owner: "oplus",
-	src: "proprietary/vendor/bin/lib3a.ccu.dm",
-	filename: "lib3a.ccu.dm",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "lib3a.ccu.pm",
-	owner: "oplus",
-	src: "proprietary/vendor/bin/lib3a.ccu.pm",
-	filename: "lib3a.ccu.pm",
-	soc_specific: true,
-}
-
 cc_prebuilt_binary {
 	name: "mcDriverDaemon",
 	owner: "oplus",
@@ -9012,3 +8764,4 @@ cc_prebuilt_binary {
 	relative_install_path: "hw",
 	device_specific: true,
 }
+

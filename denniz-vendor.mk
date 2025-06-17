@@ -117,8 +117,6 @@ PRODUCT_COPY_FILES += \
     vendor/oplus/denniz/proprietary/vendor/firmware/valhall-1691526.wa:$(TARGET_COPY_OUT_VENDOR)/firmware/valhall-1691526.wa
 
 PRODUCT_PACKAGES += \
-    vendor.oplus.hardware.cameraextension@1.0 \
-    vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.isphal@1.0-impl \
@@ -161,7 +159,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
     vendor.mediatek.hardware.camera.isphal@1.0 \
-    vendor.oplus.hardware.cammidasservice@1.0_vendor \
+    vendor.oplus.hardware.cammidasservice@1.0 \
     libfgauge_gm30 \
     gc02m1_mipi_raw_21127_IdxMgr \
     gc02m1_mipi_raw_21305_IdxMgr \
@@ -363,7 +361,6 @@ PRODUCT_PACKAGES += \
     libmtkrilutils \
     libmtktinyxml \
     libmtkutils \
-    libperfctl_vendor \
     libtrm \
     libmtkcam_streaminfo_plugin-p1stt \
     ov02b10_mipi_raw21015_IdxMgr \
@@ -386,41 +383,14 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee.tui@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
-    libAlgoProcess \
-    libCOppLceTonemapAPI \
-    libDeVIS \
-    libEIS \
-    libFilterWrapper \
-    libOGLManager \
-    libRbsFlow \
-    libRbsFlow_cap \
-    libWaterMark \
-    lib_rectify \
-    libaiseg \
-    libalCFR \
-    libapsexif \
-    libapsjpeg \
-    libapspng \
-    libcamera_core_hwi_odm \
-    libhyperlapse \
     liblvimfs \
     liblvimfs_wrapper \
     libmindroid-app \
     libmindroid-framework \
-    libmpbase_odm \
     libnp-loader \
-    libocam_common_odm \
-    liboplus_platform_hwi_odm \
     libtfavib \
-    libui_oplus \
-    vendor.oplus.hardware.cammidasservice@1.0_odm \
-    libVDExternal \
-    libYTCommon_odm \
-    libc++_shared \
     libmtk-subsys-service \
-    libop-ai-beauty-body-detection \
-    libop-ai-beauty-faceretouch-cn \
-    libstdc++_odm \
+    libstdc++ \
     android.hardware.graphics.allocator@2.0_odm \
     android.hardware.graphics.allocator@3.0_odm \
     android.hardware.graphics.allocator@4.0_odm \
@@ -429,6 +399,7 @@ PRODUCT_PACKAGES += \
     imx615_mipi_raw20817_tuning \
     imx766_mipi_raw20817_tuning \
     libBokehPre \
+    libCOppLceTonemapAPI \
     libCamera_gc02m1bmipimono20817_E2EHDR_Preview \
     libCamera_gc02m1bmipimono20817_E2EHDR_Video \
     libCamera_gc02m1bmipimono20817_Face_Capture \
@@ -621,17 +592,34 @@ PRODUCT_PACKAGES += \
     libCamera_imx766mipiraw20817_portrait_preview_full \
     libCamera_imx766mipiraw20817_zHDR_Face_Capture \
     libCamera_imx766mipiraw20817_zHDR_Scene_Capture \
-    libSuperTextWrapper_odm \
+    libDeVIS \
+    libEIS \
+    libFilterWrapper \
+    libOGLManager \
+    libRbsFlow \
+    libRbsFlow_cap \
+    libSuperTextWrapper \
     libVideoEnhance \
+    libWaterMark \
+    lib_rectify \
+    libaiseg \
+    libalCFR \
     libanc_np-loader \
+    libapsexif \
+    libapsjpeg \
+    libapspng \
+    libcamera_core_hwi_odm \
+    libhyperlapse \
     libml_util \
+    libmpbase \
+    libocam_common_odm \
+    liboplus_platform_hwi_odm \
     libtflite_mtk_static \
+    libui_oplus \
     libwatermark_photo \
+    vendor.oplus.hardware.cammidasservice@1.0_odm \
     manifest_oplus_cammidasservice.xml \
     camerahalserver \
     vendor.trustonic.tee@1.1-service \
-    lib3a.ccu.ddr \
-    lib3a.ccu.dm \
-    lib3a.ccu.pm \
     mcDriverDaemon \
     vendor.oplus.hardware.cammidasservice@1.0-service
