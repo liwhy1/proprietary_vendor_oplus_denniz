@@ -8482,8 +8482,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libcamera_core_hwi_odm
-",
+	name: "libcamera_core_hwi_odm",
 	stem: "libcamera_core_hwi",
 	owner: "oplus",
 	strip: {
