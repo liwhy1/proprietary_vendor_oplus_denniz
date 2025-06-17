@@ -4711,14 +4711,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libmindroid-app.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libmindroid-app.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	device_specific: true,
@@ -4731,14 +4728,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libmindroid-framework.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libmindroid-framework.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	device_specific: true,
@@ -4751,14 +4745,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libnp-loader.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libnp-loader.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	device_specific: true,
@@ -4771,31 +4762,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libtfavib.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/odm/lib64/libtfavib.so"],
 		},
 	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	device_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libmtk-subsys-service",
-	owner: "oplus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/odm/lib/libmtk-subsys-service.so"],
-		},
-	},
-	compile_multilib: "32",
+	compile_multilib: "64",
 	check_elf_files: false,
 	prefer: true,
 	device_specific: true,

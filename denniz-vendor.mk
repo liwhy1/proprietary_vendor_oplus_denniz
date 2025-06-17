@@ -389,7 +389,6 @@ PRODUCT_PACKAGES += \
     libmindroid-framework \
     libnp-loader \
     libtfavib \
-    libmtk-subsys-service \
     libstdc++ \
     android.hardware.graphics.allocator@2.0_odm \
     android.hardware.graphics.allocator@3.0_odm \
