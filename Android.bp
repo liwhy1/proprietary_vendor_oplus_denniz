@@ -8313,7 +8313,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libSuperTextWrapper_",
+	name: "libSuperTextWrapper",
 	owner: "oplus",
 	strip: {
 		none: true,
