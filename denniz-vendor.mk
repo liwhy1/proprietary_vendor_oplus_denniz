@@ -348,6 +348,7 @@ PRODUCT_PACKAGES += \
     libmtkcam_pipelinepolicy_factory \
     libmtkcam_prerelease \
     libmtkcam_rsc \
+    libperfctl_vendor \
     libmtkcam_scenariorecorder \
     libmtkcam_stdutils \
     libmtkcam_streamutils \
